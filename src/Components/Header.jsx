@@ -1,6 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 export default function Header() {
+	useEffect(() => {
+		const btnMenu = document.getElementById("menu-toggle");
+		btnMenu.addEventListener("click", () => {
+			document.querySelector(".menu-1").classList.toggle("click");
+			document.querySelector(".menu-2").classList.toggle("click");
+			document.querySelector(".menu-3").classList.toggle("click");
+		});
+	});
+
 	return (
 		<div className='wrapper-header'>
 			<nav className='navbar navbar-expand-md fixed-top background-dark wrapper-head'>
@@ -8,6 +17,7 @@ export default function Header() {
 					<img src='/assets/images/logo.png' className=' img-logo' />
 				</a>
 				<button
+					id='menu-toggle'
 					className='navbar-toggler p-0 menu-toggle'
 					type='button'
 					data-toggle='collapse'
@@ -15,7 +25,10 @@ export default function Header() {
 					aria-controls='navbarSupportedContent'
 					aria-expanded='false'
 					aria-label='Toggle navigation'>
-					<i className='fa fa-bars text-light'></i>
+					{/* <i className='fa fa-bars text-light'></i> */}
+					<span className='menu-1'></span>
+					<span className='menu-2'></span>
+					<span className='menu-3'></span>
 				</button>
 
 				<div

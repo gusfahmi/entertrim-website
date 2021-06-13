@@ -32,6 +32,70 @@ background-color: #fff;
 }
 
 
+.menu-toggle{
+  height: 40px;
+  width: 40px;  
+  cursor: pointer; 
+} 
+
+.menu-1{
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.menu-2{
+  margin-top: 7px;
+  display: block;
+  height: 3px; 
+  width: 70%;
+  background-color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-3{
+  margin-top: 7px;
+  display: block;
+  height: 3px;
+  width: 80%;
+  background-color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+.menu-1.click{
+  width: 100%; 
+  -webkit-transform: translateY(10px) rotate(40deg);
+  -ms-transform: translateY(10px) rotate(40deg);
+  -o-transform: translateY(10px) rotate(40deg);
+  transform: translateY(10px) rotate(40deg);
+}
+
+
+.menu-2.click{
+  width: 0px;
+}
+
+
+.menu-3.click{
+  width: 100%; 
+  -webkit-transform: translateY(-10px) rotate(-40deg);
+  -ms-transform: translateY(-10px) rotate(-40deg);
+  -o-transform: translateY(-10px) rotate(-40deg);
+  transform: translateY(-10px) rotate(-40deg);
+}
+
+
+
+
 
 
 
@@ -48,12 +112,7 @@ background-color: #fff;
   margin: 0px auto;
 }
 
-.menu-toggle{
-  height: 40px;
-  width: 40px;
-  background-color: #d91b42;
-  cursor: pointer;
-} 
+
 
 .nav-link{
   color: #fff;
