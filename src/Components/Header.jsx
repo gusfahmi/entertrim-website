@@ -48,13 +48,6 @@ export default function Header() {
 							</a>
 						</li>
 					</ul>
-					{/* <div className='form-inline ml-auto my-2 my-lg-0 '>
-						<button
-							className='btn btn-contact-header my-2 my-sm-0 shadow-none'
-							type='submit'>
-							CONTACT US
-						</button>
-					</div> */}
 				</div>
 			</nav>
 		</div>

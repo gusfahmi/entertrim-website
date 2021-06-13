@@ -26,17 +26,17 @@ export default function Contact() {
 
 								<div className='content-detail-contact'>
 									<h5 className='contact-detail'>Details</h5>
-									<a href='' className='detail-contact'>
+									<a href='#' className='detail-contact'>
 										halo@entertrim.com
 									</a>
 									<span className='line-contact'></span>
 
-									<a href='' className='detail-contact'>
+									<a href='#' className='detail-contact'>
 										+6282166216671 (Phone / Whatsapp / Telegram)
 									</a>
 									<span className='line-contact'></span>
 
-									<a href='' className='detail-contact'>
+									<a href='#' className='detail-contact'>
 										Jl. Medan-Binjai, Diski, Km. 14.5, Gg. Bantan,
 										Deli Serdang, Sumatera Utara.
 									</a>
