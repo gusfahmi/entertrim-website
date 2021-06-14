@@ -3,6 +3,15 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
 	useEffect(() => {
+		const loc = window.location.pathname;
+		if (loc === "/about") {
+			document.querySelector(".link-about").classList.add("active");
+		} else if (loc === "/services") {
+			document.querySelector(".link-services").classList.add("active");
+		} else if (loc === "/contact") {
+			document.querySelector(".link-contact").classList.add("active");
+		}
+
 		const btnMenu = document.getElementById("menu-toggle");
 		btnMenu.addEventListener("click", () => {
 			document.querySelector(".menu-1").classList.toggle("click");
@@ -39,18 +48,18 @@ export default function Header() {
 					id='navbarSupportedContent'>
 					<ul className='navbar-nav ml-auto'>
 						<li className='nav-item active'>
-							<Link to='/services' className='nav-link active'>
+							<Link to='/services' className='nav-link link-services'>
 								Services
 							</Link>
 						</li>
 						<li className='nav-item active'>
-							<Link to='/about' className='nav-link'>
+							<Link to='/about' className='nav-link link-about'>
 								About
 							</Link>
 						</li>
 
 						<li className='nav-item active'>
-							<Link to='/contact' className='nav-link'>
+							<Link to='/contact' className='nav-link link-contact'>
 								Contact
 							</Link>
 						</li>

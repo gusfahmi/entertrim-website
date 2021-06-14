@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../Components/Header";
 import JumbotronIndex from "../Components/JumbotronIndex";
 import Reasons from "../Components/Reasons";
@@ -8,6 +8,14 @@ import Contact from "../Components/ContactIndex";
 import Footer from "../Components/Footer";
 
 export default function Index() {
+	useEffect(() => {
+		window.scrollTo({
+			top: 0,
+			left: 0,
+			behavior: "smooth",
+		});
+	}, []);
+
 	return (
 		<>
 			<Header />

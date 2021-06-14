@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
 	return (
@@ -25,18 +26,18 @@ export default function Footer() {
 							</div>
 
 							<div className='wrapper-link-menu'>
-								<a href='#' className='link-footer'>
+								<Link to='/services' className='link-footer'>
 									Services
-								</a>
-								<a href='#' className='link-footer'>
+								</Link>
+								<Link to='/about' className='link-footer'>
 									About
-								</a>
-								<a href='#' className='link-footer'>
+								</Link>
+								<Link to='/contact' className='link-footer'>
 									Contact
-								</a>
-								<a href='#' className='link-footer'>
+								</Link>
+								<Link to='#' className='link-footer'>
 									Proposal
-								</a>
+								</Link>
 							</div>
 
 							<div className='wrapper-copyright'>

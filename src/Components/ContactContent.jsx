@@ -1,6 +1,8 @@
 import React from "react";
 import Socials from "./Socials";
 
+import { Link } from "react-router-dom";
+
 export default function ContactContent() {
 	return (
 		<>
@@ -28,9 +30,12 @@ export default function ContactContent() {
 							<h3 className='title-about-mission'>Call Us</h3>
 
 							<p className='desc-about-mission'>Available : 24 Hours</p>
-							<button className='btn btn-contact-content'>
-								+62821-6621-6671
-							</button>
+
+							<a href='tel:+6282166216671'>
+								<button className='btn btn-contact-content'>
+									+62821-6621-6671
+								</button>
+							</a>
 						</div>
 						<div className='col-lg-4 col-md-5 background-dark m-2 wrap-about-mission'>
 							<img
@@ -43,9 +48,11 @@ export default function ContactContent() {
 							<p className='desc-about-mission'>
 								Available : 07:00 AM - 00.00 AM
 							</p>
-							<button className='btn btn-contact-content'>
-								halo@entertrim.com
-							</button>
+							<a href='mailto:halo@entertrim.com'>
+								<button className='btn btn-contact-content'>
+									halo@entertrim.com
+								</button>
+							</a>
 						</div>
 
 						<iframe

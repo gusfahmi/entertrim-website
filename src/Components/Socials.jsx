@@ -25,7 +25,13 @@ export default function Socials() {
 							<p className='desc-about-mission'>
 								Follow us on Instagram
 							</p>
-							<button className='btn btn-social-content'>Follow</button>
+							<a
+								href='https://www.instagram.com/entertrim'
+								target='_blank'>
+								<button className='btn btn-social-content'>
+									Follow
+								</button>
+							</a>
 						</div>
 
 						<div className='col-lg-4 col-md-5 background-dark m-2 mt-5 wrap-about-social social-fb'>
@@ -34,17 +40,29 @@ export default function Socials() {
 							<h3 className='title-about-mission m-2'>Facebook</h3>
 
 							<p className='desc-about-mission'>Follow us on Facebook</p>
-							<button className='btn btn-social-content'>Follow</button>
+							<a
+								href='https://www.facebook.com/entertrim'
+								target='_blank'>
+								<button className='btn btn-social-content'>
+									Follow
+								</button>
+							</a>
 						</div>
 					</div>
 					<div className='row justify-content-around background-dark'>
-						<div className='col-lg-4 col-md-5 background-dark m-2 mb-5 wrap-about-social social-tw'>
+						<div className='col-lg-4 col-md-5 background-dark m-2 mb-5  wrap-about-social social-tw'>
 							<i className='fab fa-twitter fa-4x icon-about-social-tw'></i>
 
-							<h3 className='title-about-mission m-2'>Twitter</h3>
+							<h3 className='title-about-mission m-2 '>Twitter</h3>
 
 							<p className='desc-about-mission'>Follow us on Twitter</p>
-							<button className='btn btn-social-content'>Follow</button>
+							<a
+								href='https://www.twitter.com/entertrim'
+								target='_blank'>
+								<button className='btn btn-social-content'>
+									Follow
+								</button>
+							</a>
 						</div>
 
 						<div className='col-lg-4 col-md-5 background-dark m-2 mb-5 wrap-about-social social-yt'>

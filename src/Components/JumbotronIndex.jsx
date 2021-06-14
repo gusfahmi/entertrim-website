@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function JumbotronIndex() {
 	return (
@@ -12,11 +13,13 @@ export default function JumbotronIndex() {
 						We will help you to raise your business with innovation and
 						technology
 					</p>
-					<button
-						className='btn btn-contact my-2 my-sm-0  shadow-none'
-						type='submit'>
-						SEE SERVICES
-					</button>
+					<Link to='/services'>
+						<button
+							className='btn btn-contact my-2 my-sm-0  shadow-none'
+							type='submit'>
+							SEE SERVICES
+						</button>
+					</Link>
 				</div>
 			</div>
 			<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'>
