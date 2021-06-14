@@ -10,6 +10,8 @@ export default function Header() {
 			document.querySelector(".link-services").classList.add("active");
 		} else if (loc === "/contact") {
 			document.querySelector(".link-contact").classList.add("active");
+		} else if (loc === "/") {
+			document.querySelector(".link-home").classList.add("active");
 		}
 
 		const btnMenu = document.getElementById("menu-toggle");
@@ -48,6 +50,11 @@ export default function Header() {
 					id='navbarSupportedContent'>
 					<ul className='navbar-nav ml-auto'>
 						<li className='nav-item active'>
+							<Link to='/' className='nav-link link-home'>
+								Home
+							</Link>
+						</li>
+						<li className='nav-item active'>
 							<Link to='/services' className='nav-link link-services'>
 								Services
 							</Link>
@@ -64,7 +71,10 @@ export default function Header() {
 							</Link>
 						</li>
 						<li className='nav-item active'>
-							<a className='nav-link' href='#'>
+							<a
+								className='nav-link'
+								href='/assets/files/Entertrim_Proposal.pdf'
+								download>
 								Proposal
 							</a>
 						</li>
