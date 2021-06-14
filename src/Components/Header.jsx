@@ -7,6 +7,8 @@ export default function Header() {
 			document.querySelector(".menu-1").classList.toggle("click");
 			document.querySelector(".menu-2").classList.toggle("click");
 			document.querySelector(".menu-3").classList.toggle("click");
+
+			document.querySelector(".navbar-collapse").classList.toggle("active");
 		});
 	});
 
