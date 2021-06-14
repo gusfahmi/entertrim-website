@@ -4,7 +4,7 @@ import JumbotronIndex from "../Components/JumbotronIndex";
 import Reasons from "../Components/Reasons";
 import Services from "../Components/Services";
 import Clients from "../Components/Clients";
-import Contact from "../Components/Contact";
+import Contact from "../Components/ContactIndex";
 import Footer from "../Components/Footer";
 
 export default function Index() {

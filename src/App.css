@@ -4,8 +4,12 @@
   font-family: 'Poppins', sans-serif;
 }
 
+ 
+
 body{
-background-color: #fff;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
 }
 
 .img-logo{
@@ -91,6 +95,18 @@ background-color: #fff;
   -ms-transform: translateY(-10px) rotate(-40deg);
   -o-transform: translateY(-10px) rotate(-40deg);
   transform: translateY(-10px) rotate(-40deg);
+}
+
+svg{
+  margin-top: -5px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
 }
 
 
@@ -442,10 +458,14 @@ background-color: #fff;
 
 
 
+/* ------------------------
+      Footer
+------------------------ */
 
+ 
 
-.wrapper-footer{
-  padding: 10px;
+.wrapper-footer{ 
+  padding: 10px;  
 }
 
 .wrapper-follow{  
@@ -502,6 +522,186 @@ background-color: #fff;
 .copyright{
   color: #fff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------
+     Jumbotron Content
+------------------------ */
+
+.jumbotron-content{
+  height: 250px;  
+  margin-top: 75px;
+  color: #fff;
+}
+
+.wrapper-jumbotron-content{
+  text-align: center;
+}
+
+.title-jumbotron-content{
+  font-weight: 800; 
+  background: linear-gradient(to right, #FFF 20%, #d91b42 40%, #d91b42 60%, #FFF 80%);
+  background-size: 200% auto;
+  
+  color: #fff;
+  font-size: 60px;
+  background-clip: text; 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  margin-top: 60px;
+  animation: shine 6s linear infinite;
+}
+
+.line-jumbotron-content{
+  display: block;
+  height: 2px;
+  width: 120px;
+  background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+/* ------------------------
+     about
+------------------------ */
+
+.icon-about{
+  width: 130px;
+  height: 130px; 
+}
+
+.wrap-about-mission{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center; 
+  padding: 10px;
+}
+
+.icon-about-mission{
+  width: 80px;
+  height: 80px;
+  margin: 20px auto;
+  display: block;
+}
+
+.desc-about-mission{
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------
+     Contact
+------------------------ */
+
+.wrap-contact-content{
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.btn-contact-content{
+  width: 200px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 0px;
+  color: #fff;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.btn-contact-content:hover{
+  font-weight: bold;
+  background-color: #fff;
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrap-about-social{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center; 
+  padding: 10px;
+}
+
+.social-ig:hover > .icon-about-social-ig{
+  color: #833AB4;
+}
+
+.social-yt:hover > .icon-about-social-yt{
+  color: red;
+}
+
+.social-tw:hover > .icon-about-social-tw{
+  color: #1DA1F2;
+}
+
+.social-fb:hover > .icon-about-social-fb{
+  color: blue;
+}
+
+
+ 
+.btn-social-content{
+  width: 200px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 0px;
+  color: #fff;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.btn-social-content:hover{
+  font-weight: bold;
+  background-color: #fff;
+  color: #000;
+}
+ 
 
 
 
@@ -612,6 +812,15 @@ background-color: #fff;
   .collapsing {
        -webkit-transition: none;
        transition: none;
+  }
+
+
+
+
+
+
+  .title-jumbotron-content{
+    font-size: 45px;
   }
  
 

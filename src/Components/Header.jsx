@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
 	useEffect(() => {
@@ -15,9 +16,9 @@ export default function Header() {
 	return (
 		<div className='wrapper-header'>
 			<nav className='navbar navbar-expand-md fixed-top background-dark wrapper-head'>
-				<a className='navbar-brand ' href='#'>
+				<Link to='/' className='navbar-brand'>
 					<img src='/assets/images/logo.png' className=' img-logo' />
-				</a>
+				</Link>
 				<button
 					id='menu-toggle'
 					className='navbar-toggler p-0 menu-toggle'
@@ -38,24 +39,20 @@ export default function Header() {
 					id='navbarSupportedContent'>
 					<ul className='navbar-nav ml-auto'>
 						<li className='nav-item active'>
-							<a className='nav-link active' href='#'>
+							<Link to='/services' className='nav-link active'>
 								Services
-							</a>
+							</Link>
 						</li>
 						<li className='nav-item active'>
-							<a className='nav-link' href='#'>
+							<Link to='/about' className='nav-link'>
 								About
-							</a>
+							</Link>
 						</li>
+
 						<li className='nav-item active'>
-							<a className='nav-link' href='#'>
-								Connect
-							</a>
-						</li>
-						<li className='nav-item active'>
-							<a className='nav-link' href='#'>
+							<Link to='/contact' className='nav-link'>
 								Contact
-							</a>
+							</Link>
 						</li>
 						<li className='nav-item active'>
 							<a className='nav-link' href='#'>

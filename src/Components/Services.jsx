@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Services() {
 	return (
@@ -18,19 +19,24 @@ export default function Services() {
 				<section className='wrapper-detail-choose p-2'>
 					<div className='row justify-content-center'>
 						<div className='col-lg-3 col-md-5 col-sm-12 m-2 mb-lg-5'>
-							<div className='card background-dark list-choose-service'>
-								<img
-									className='card-img-top img-card-service'
-									src='/assets/icons/web.png'
-									alt='Web Development | Entertrim'
-								/>
-								<div className='card-body'>
-									<h5 className='card-title title-service'>Website</h5>
-									<p className='card-text text-service'>
-										Build any kind of web static, portfolio or web app
-									</p>
+							<Link to='/services/website'>
+								<div className='card background-dark list-choose-service'>
+									<img
+										className='card-img-top img-card-service'
+										src='/assets/icons/web.png'
+										alt='Web Development | Entertrim'
+									/>
+									<div className='card-body'>
+										<h5 className='card-title title-service'>
+											Website
+										</h5>
+										<p className='card-text text-service'>
+											Build any kind of web static, portfolio or web
+											app
+										</p>
+									</div>
 								</div>
-							</div>
+							</Link>
 						</div>
 
 						<div className='col-lg-3 col-md-5 col-sm-12 m-2 mb-lg-5'>
@@ -43,7 +49,7 @@ export default function Services() {
 								<div className='card-body'>
 									<h5 className='card-title title-service'>Android</h5>
 									<p className='card-text text-service'>
-										Build application for any android system
+										Build android application for any android system
 									</p>
 								</div>
 							</div>

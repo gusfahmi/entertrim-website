@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
 	return (
-		<>
+		<div>
 			<div className='container-fluid background-dark'>
 				<div className='row justify-content-center'>
 					<div className='col-lg-6 col-md-12 col-sm-12'>
@@ -32,9 +32,6 @@ export default function Footer() {
 									About
 								</a>
 								<a href='#' className='link-footer'>
-									Connect
-								</a>
-								<a href='#' className='link-footer'>
 									Contact
 								</a>
 								<a href='#' className='link-footer'>
@@ -49,6 +46,6 @@ export default function Footer() {
 					</div>
 				</div>
 			</div>
-		</>
+		</div>
 	);
 }
