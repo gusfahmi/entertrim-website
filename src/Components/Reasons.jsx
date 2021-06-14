@@ -7,7 +7,7 @@ export default function Reasons() {
 				<section className='wrapper-choose'>
 					<img
 						className='icon-index'
-						src='/assets/icons/request.png'
+						src='/assets/icons/request.svg'
 						alt='How we can help you | Entertrim'
 					/>
 					<h3 className='text-center text-dark mb-5 mt-5 text-title-explain'>
@@ -21,7 +21,7 @@ export default function Reasons() {
 							<div className='card background-dark list-choose'>
 								<img
 									className='card-img-top img-card'
-									src='/assets/icons/domain.png'
+									src='/assets/icons/domain.svg'
 									alt='Free Domain | Entertrim'
 								/>
 								<div className='card-body'>
@@ -36,7 +36,7 @@ export default function Reasons() {
 							<div className='card background-dark list-choose'>
 								<img
 									className='card-img-top img-card'
-									src='/assets/icons/hosting.png'
+									src='/assets/icons/hosting.svg'
 									alt='Free Hosting | Entertrim'
 								/>
 								<div className='card-body'>
@@ -52,7 +52,7 @@ export default function Reasons() {
 							<div className='card background-dark list-choose'>
 								<img
 									className='card-img-top img-card'
-									src='/assets/icons/ssl.png'
+									src='/assets/icons/ssl.svg'
 									alt='Free SSL | Entertrim'
 								/>
 								<div className='card-body'>
@@ -69,7 +69,7 @@ export default function Reasons() {
 							<div className='card background-dark list-choose'>
 								<img
 									className='card-img-top img-card'
-									src='/assets/icons/consultant.png'
+									src='/assets/icons/consultant.svg'
 									alt='Free SSL | Entertrim'
 								/>
 								<div className='card-body'>
@@ -85,7 +85,7 @@ export default function Reasons() {
 							<div className='card background-dark list-choose'>
 								<img
 									className='card-img-top img-card'
-									src='/assets/icons/guaranteed.png'
+									src='/assets/icons/guaranteed.svg'
 									alt='Free SSL | Entertrim'
 								/>
 								<div className='card-body'>
@@ -101,7 +101,7 @@ export default function Reasons() {
 							<div className='card background-dark list-choose'>
 								<img
 									className='card-img-top img-card'
-									src='/assets/icons/trusted.png'
+									src='/assets/icons/trusted.svg'
 									alt='Free SSL | Entertrim'
 								/>
 								<div className='card-body'>

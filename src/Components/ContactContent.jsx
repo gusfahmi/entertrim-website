@@ -11,7 +11,7 @@ export default function ContactContent() {
 				<section className='wrapper-choose'>
 					<img
 						className='icon-index'
-						src='/assets/icons/contacts.png'
+						src='/assets/icons/contacts.svg'
 						alt='How we can help you | Entertrim'
 					/>
 					<h3 className='text-center text-dark mb-5 mt-5 text-title-explain'>
@@ -23,7 +23,7 @@ export default function ContactContent() {
 					<div className='row justify-content-around background-dark'>
 						<div className='col-lg-4 col-md-5 background-dark m-2 wrap-about-mission'>
 							<img
-								src='/assets/icons/phone.png'
+								src='/assets/icons/phone.svg'
 								className='icon-about-mission'
 								alt=''
 							/>
@@ -39,7 +39,7 @@ export default function ContactContent() {
 						</div>
 						<div className='col-lg-4 col-md-5 background-dark m-2 wrap-about-mission'>
 							<img
-								src='/assets/icons/email.png'
+								src='/assets/icons/email.svg'
 								className='icon-about-mission'
 								alt=''
 							/>

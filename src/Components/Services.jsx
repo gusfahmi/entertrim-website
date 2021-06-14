@@ -8,7 +8,7 @@ export default function Services() {
 				<section className='wrapper-choose'>
 					<img
 						className='icon-index'
-						src='/assets/icons/services.png'
+						src='/assets/icons/services.svg'
 						alt='Our Services | Entertrim'
 					/>
 					<h3 className='text-center text-dark mb-5 mt-5 text-title-explain'>
@@ -23,7 +23,7 @@ export default function Services() {
 								<div className='card background-dark list-choose-service'>
 									<img
 										className='card-img-top img-card-service'
-										src='/assets/icons/web.png'
+										src='/assets/icons/website.svg'
 										alt='Web Development | Entertrim'
 									/>
 									<div className='card-body'>
@@ -43,7 +43,7 @@ export default function Services() {
 							<div className='card background-dark list-choose-service'>
 								<img
 									className='card-img-top img-card-service'
-									src='/assets/icons/android.png'
+									src='/assets/icons/android.svg'
 									alt='Android Development | Entertrim'
 								/>
 								<div className='card-body'>
@@ -59,7 +59,7 @@ export default function Services() {
 							<div className='card background-dark list-choose-service'>
 								<img
 									className='card-img-top img-card-service'
-									src='/assets/icons/software.png'
+									src='/assets/icons/software.svg'
 									alt='Free Domain | Entertrim'
 								/>
 								<div className='card-body'>
@@ -77,7 +77,7 @@ export default function Services() {
 							<div className='card background-dark list-choose-service'>
 								<img
 									className='card-img-top img-card-service'
-									src='/assets/icons/ai.png'
+									src='/assets/icons/ai.svg'
 									alt='Free Domain | Entertrim'
 								/>
 								<div className='card-body'>
@@ -94,7 +94,7 @@ export default function Services() {
 							<div className='card background-dark list-choose-service'>
 								<img
 									className='card-img-top img-card-service'
-									src='/assets/icons/network.png'
+									src='/assets/icons/network.svg'
 									alt='Free Domain | Entertrim'
 								/>
 								<div className='card-body'>
@@ -110,7 +110,7 @@ export default function Services() {
 							<div className='card background-dark list-choose-service'>
 								<img
 									className='card-img-top img-card-service'
-									src='/assets/icons/server.png'
+									src='/assets/icons/server.svg'
 									alt='Free Domain | Entertrim'
 								/>
 								<div className='card-body'>
@@ -126,7 +126,7 @@ export default function Services() {
 							<div className='card background-dark list-choose-service'>
 								<img
 									className='card-img-top img-card-service'
-									src='/assets/icons/iot.png'
+									src='/assets/icons/iot.svg'
 									alt='Free Domain | Entertrim'
 								/>
 								<div className='card-body'>

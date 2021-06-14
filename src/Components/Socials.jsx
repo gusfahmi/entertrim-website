@@ -7,7 +7,7 @@ export default function Socials() {
 				<section className='wrapper-choose'>
 					<img
 						className='icon-index'
-						src='/assets/icons/social.png'
+						src='/assets/icons/social.svg'
 						alt='How we can help you | Entertrim'
 					/>
 					<h3 className='text-center text-dark mb-5 mt-5 text-title-explain'>

@@ -25,7 +25,7 @@ export default function AboutUs() {
 					<div className='row justify-content-center'>
 						<div className='col-lg-5 col-md-5 background-dark m-2 wrap-about-mission'>
 							<img
-								src='/assets/icons/vision.png'
+								src='/assets/icons/vision.svg'
 								className='icon-about-mission'
 								alt=''
 							/>
@@ -38,7 +38,7 @@ export default function AboutUs() {
 						</div>
 						<div className='col-lg-5 col-md-5 background-dark m-2 wrap-about-mission'>
 							<img
-								src='/assets/icons/mission.png'
+								src='/assets/icons/mission.svg'
 								className='icon-about-mission'
 								alt=''
 							/>

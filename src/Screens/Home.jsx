@@ -25,7 +25,7 @@ export default function Index() {
 				<section className='wrapper-help'>
 					<img
 						className='icon-index'
-						src='/assets/icons/help.png'
+						src='/assets/icons/help.svg'
 						alt='How we can help you | Entertrim'
 					/>
 					<h3 className='text-center text-dark mb-5 mt-5 text-title-explain'>

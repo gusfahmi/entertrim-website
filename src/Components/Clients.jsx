@@ -7,7 +7,7 @@ export default function Clients() {
 				<section className='wrapper-choose'>
 					<img
 						className='icon-index'
-						src='/assets/icons/clients.png'
+						src='/assets/icons/clients.svg'
 						alt='Our clientss | Entertrim'
 					/>
 					<h3 className='text-center text-dark mb-5 mt-5 text-title-explain'>
