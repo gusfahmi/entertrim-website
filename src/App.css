@@ -109,24 +109,24 @@ a{
 a:hover{
   text-decoration: none;
 }
-
-
-
-
-
-/* .navbar-collapse{
-  height: 100vh; 
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-end;
+ 
+.btn-gold{ 
+  font-weight: bold; 
+  color: #c39a3b;
+  height: 40px; 
+  width: 80%; 
+  border: 1px solid 	#c39a3b; 
+  transition: all 0.3s; 
+  border-radius: 0px;
+  margin-top: 10px;
 }
 
-
-
- */
+.btn-gold:hover{
+  color: #fff;
+  background-color: #c39a3b;
+}
  
-
+ 
 
 
 
@@ -304,7 +304,7 @@ a:hover{
 
 
 
-.list-choose-service{
+.list-choose-service{ 
   color: #fff;
   transition: 0.3s;
   text-align: center;
@@ -354,16 +354,11 @@ a:hover{
 .img-card-clients{
   width: 125px;
   height: 125px;
-  margin: -55px auto;
-}
-
-.title-clients{
-  margin-top: 70px;
+  margin: 20px auto;
 }
 
 .title-clients{
   font-size: 19px;
-  margin-top: 70px;
 }
 
 .line-clients{
@@ -711,19 +706,26 @@ a:hover{
 
 
 
+.wrap-contact-modal{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
 
 @media(max-width: 1000px){
 
-  .list-choose-service{
-    height: 200px;
-  }
+  /* .list-choose-service{
+    height: 280px;
+  } */
   .list-choose-service{
     margin-bottom: 60px;
   } 
 
-  .list-choose-clients{
+  /* .list-choose-clients{
     margin-bottom: 70px;
-  } 
+  }  */
 
   .text-title-explain{
     width: 90%;

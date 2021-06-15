@@ -29,12 +29,16 @@ export default function Index() {
 						alt='How we can help you | Entertrim'
 					/>
 					<h3 className='text-center text-dark mb-5 mt-5 text-title-explain'>
-						<span>HOW WE CAN HELP YOU</span>
+						<span>HOW CAN WE HELP YOU</span>
 					</h3>
 					<p className='text-center'>
 						Technology will never stop evolving. So with us, you can
-						create any innovation and technology to raise and grow your
+						create any innovation and technology to raise and improve your
 						business.
+						<br />
+						<br /> We will not only help you to solve your problems, we
+						will also help you to raise and grow your business by
+						technology
 					</p>
 				</section>
 			</div>

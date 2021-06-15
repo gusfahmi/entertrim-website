@@ -1,9 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import ModalContact from "./ModalContact";
 
 export default function Services() {
 	return (
 		<>
+			<ModalContact />
 			<div className='container-fluid'>
 				<section className='wrapper-choose'>
 					<img
@@ -19,24 +20,26 @@ export default function Services() {
 				<section className='wrapper-detail-choose p-2'>
 					<div className='row justify-content-center'>
 						<div className='col-lg-3 col-md-5 col-sm-12 m-2 mb-lg-5'>
-							<Link to='/services/website'>
-								<div className='card background-dark list-choose-service'>
-									<img
-										className='card-img-top img-card-service'
-										src='/assets/icons/website.svg'
-										alt='Web Development | Entertrim'
-									/>
-									<div className='card-body'>
-										<h5 className='card-title title-service'>
-											Website
-										</h5>
-										<p className='card-text text-service'>
-											Build any kind of web static, portfolio or web
-											app
-										</p>
-									</div>
+							<div className='card background-dark list-choose-service'>
+								<img
+									className='card-img-top img-card-service'
+									src='/assets/icons/website.svg'
+									alt='Web Development | Entertrim'
+								/>
+								<div className='card-body'>
+									<h5 className='card-title title-service'>Website</h5>
+									<p className='card-text text-service'>
+										Build any kind of web static, portfolio or web app
+									</p>
+
+									<button
+										className='btn btn-gold'
+										data-toggle='modal'
+										data-target='#modalContact'>
+										CONTACT US
+									</button>
 								</div>
-							</Link>
+							</div>
 						</div>
 
 						<div className='col-lg-3 col-md-5 col-sm-12 m-2 mb-lg-5'>
@@ -51,6 +54,12 @@ export default function Services() {
 									<p className='card-text text-service'>
 										Build android application for any android system
 									</p>
+									<button
+										className='btn btn-gold'
+										data-toggle='modal'
+										data-target='#modalContact'>
+										CONTACT US
+									</button>
 								</div>
 							</div>
 						</div>
@@ -69,6 +78,12 @@ export default function Services() {
 									<p className='card-text text-service'>
 										Build desktop app for Windows or Mac Os
 									</p>
+									<button
+										className='btn btn-gold'
+										data-toggle='modal'
+										data-target='#modalContact'>
+										CONTACT US
+									</button>
 								</div>
 							</div>
 						</div>
@@ -86,6 +101,12 @@ export default function Services() {
 										Build artificial intelligence for web, app or
 										embed system
 									</p>
+									<button
+										className='btn btn-gold'
+										data-toggle='modal'
+										data-target='#modalContact'>
+										CONTACT US
+									</button>
 								</div>
 							</div>
 						</div>
@@ -102,6 +123,12 @@ export default function Services() {
 									<p className='card-text text-service'>
 										Build, setup or maintain resource network system
 									</p>
+									<button
+										className='btn btn-gold'
+										data-toggle='modal'
+										data-target='#modalContact'>
+										CONTACT US
+									</button>
 								</div>
 							</div>
 						</div>
@@ -118,6 +145,12 @@ export default function Services() {
 									<p className='card-text text-service'>
 										Build, setup or maintain server (hardware / VPS)
 									</p>
+									<button
+										className='btn btn-gold'
+										data-toggle='modal'
+										data-target='#modalContact'>
+										CONTACT US
+									</button>
 								</div>
 							</div>
 						</div>
@@ -134,6 +167,12 @@ export default function Services() {
 									<p className='card-text text-service'>
 										Build controlling system with IoT
 									</p>
+									<button
+										className='btn btn-gold'
+										data-toggle='modal'
+										data-target='#modalContact'>
+										CONTACT US
+									</button>
 								</div>
 							</div>
 						</div>

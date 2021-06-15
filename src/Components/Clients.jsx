@@ -181,7 +181,9 @@ export default function Clients() {
 									alt='Free Domain | Entertrim'
 								/>
 								<div className='card-body'>
-									<h5 className='card-title title-clients'>PT. DDS</h5>
+									<h5 className='card-title title-clients'>
+										PT. Dat Daramenta
+									</h5>
 									<p className='card-text text-clients'>
 										Company Profile
 										<span className='line-clients'></span>

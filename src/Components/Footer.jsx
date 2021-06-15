@@ -9,18 +9,28 @@ export default function Footer() {
 					<div className='col-lg-6 col-md-12 col-sm-12'>
 						<div className='wrapper-footer'>
 							<div className='wrapper-follow'>
-								<a href='#' className='social-icon social-icon-ig'>
+								<a
+									href='https://instagram.com/entertrim'
+									target='_blank'
+									className='social-icon social-icon-ig'>
 									<i className='fab fa-instagram fa-2x'></i>
 								</a>
-								<a href='#' className='social-icon social-icon-twitter'>
+								<a
+									href='https://twitter.com/entertrim'
+									target='_blank'
+									className='social-icon social-icon-twitter'>
 									<i className='fab fa-twitter fa-2x'></i>
 								</a>
 								<a
-									href='#'
+									href='https://facebook.com/entertrim'
+									target='_blank'
 									className='social-icon social-icon-facebook'>
 									<i className='fab fa-facebook fa-2x'></i>
 								</a>
-								<a href='#' className='social-icon social-icon-youtube'>
+								<a
+									href='#'
+									target='_blank'
+									className='social-icon social-icon-youtube'>
 									<i className='fab fa-youtube fa-2x'></i>
 								</a>
 							</div>
@@ -35,9 +45,12 @@ export default function Footer() {
 								<Link to='/contact' className='link-footer'>
 									Contact
 								</Link>
-								<Link to='#' className='link-footer'>
+								<a
+									href='/files/Entertrim_Proposal.pdf'
+									className='link-footer'
+									download>
 									Proposal
-								</Link>
+								</a>
 							</div>
 
 							<div className='wrapper-copyright'>

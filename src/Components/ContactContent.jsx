@@ -56,7 +56,7 @@ export default function ContactContent() {
 						</div>
 
 						<iframe
-							src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2815.6547797174485!2d98.5526891815901!3d3.6018631975646502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3031293f19c440db%3A0x8ada879247c6a011!2sJl.%20Banten%2C%20Kec.%20Sunggal%2C%20Kabupaten%20Deli%20Serdang%2C%20Sumatera%20Utara%2020351!5e0!3m2!1sen!2sid!4v1623668257933!5m2!1sen!2sid'
+							src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.926491537564!2d98.55231024979767!3d3.6043047973643345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x25826e5eb6d7e489!2sResidence%20Banten!5e0!3m2!1sen!2sid!4v1623767898642!5m2!1sen!2sid'
 							style={{
 								width: "100%",
 								height: 450,
