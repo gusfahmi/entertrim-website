@@ -8,7 +8,7 @@ export default function AboutUs() {
 					<img
 						className='icon-about'
 						src='/assets/images/logo.svg'
-						alt='How we can help you | Entertrim'
+						alt='About Entertrim Technology'
 					/>
 					<h3 className='text-center text-dark mb-5 mt-5 text-title-explain'>
 						<span>ENTERTRIM TECHNOLOGY</span>

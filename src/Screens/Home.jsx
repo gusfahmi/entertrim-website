@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+
 import Header from "../Components/Header";
 import JumbotronIndex from "../Components/JumbotronIndex";
 import Reasons from "../Components/Reasons";
@@ -6,6 +7,8 @@ import Services from "../Components/Services";
 import Clients from "../Components/Clients";
 import Contact from "../Components/ContactIndex";
 import Footer from "../Components/Footer";
+
+import Helmet from "../Components//Helmet";
 
 export default function Index() {
 	useEffect(() => {
@@ -18,6 +21,11 @@ export default function Index() {
 
 	return (
 		<>
+			<Helmet
+				title='Welcome to Entertrim'
+				description='The best IT Consultant in Medan Sumatera Utara'
+				keywords='web medan, pemerintah kota medan, kota medan, medan, indonesia, sumatera utara, deli serdang, binjai, web, aplikasi, software, konsultan, perusahaan it, perusahaan it medan, perusahaan it medan berkualitas, Perusahaan IT Indonesia, Perusahaan IT Medan, Solusi IT Medan, it solutions, jasa website, jasa website medan, website murah, internet murah, internet murah medan, internet promo, layananan 24 jam, teknisi it, konsultant it'
+			/>
 			<Header />
 			<JumbotronIndex />
 
