@@ -1,8 +1,81 @@
-import React from "react";
-
+import React, { useRef, useState } from "react";
+import axios from "axios";
+import Toast from "./Toast";
+function validateEmail(mail) {
+	if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(mail)) {
+		return true;
+	} else {
+		return false;
+	}
+}
 export default function Contact() {
+	const [statusMessage, setStatusMessage] = useState("");
+	const [isLoading, setIsLoading] = useState(false);
+	const [bgToast, setBgToast] = useState("");
+
+	const emailRef = useRef(null);
+	const contentRef = useRef(null);
+
+	const submitContact = async (e) => {
+		e.preventDefault();
+		setIsLoading(true);
+
+		const email = emailRef.current.value;
+		const content = contentRef.current.value;
+		console.log(validateEmail(email));
+
+		if (validateEmail(email)) {
+			try {
+				const sendMail = await axios.post(
+					"http://127.0.0.1:3030/sendMail",
+					{
+						email: email,
+						content: content,
+					}
+				);
+				const response = sendMail.data;
+
+				const { status, message } = response;
+
+				document.querySelector(".toast").classList.add("show");
+				setTimeout(() => {
+					document.querySelector(".toast").classList.remove("show");
+				}, 4000);
+
+				if (status === "success") {
+					setBgToast("#25D366");
+					setStatusMessage(
+						"Thank you for your contact, We'll response as soon as possible"
+					);
+				} else {
+					setBgToast("#d91b42");
+					setStatusMessage("Error, Please try again later");
+				}
+			} catch (e) {
+				setBgToast("#d91b42");
+				setStatusMessage(e.message);
+				document.querySelector(".toast").classList.add("show");
+				setTimeout(() => {
+					document.querySelector(".toast").classList.remove("show");
+				}, 4000);
+			}
+		} else {
+			setBgToast("#d91b42");
+			setStatusMessage("Invalid Email");
+			document.querySelector(".toast").classList.add("show");
+			setTimeout(() => {
+				document.querySelector(".toast").classList.remove("show");
+			}, 4000);
+		}
+
+		setIsLoading(false);
+		emailRef.current.value = "";
+		contentRef.current.value = "";
+	};
+
 	return (
 		<>
+			<Toast text={statusMessage} bg={bgToast} />
 			<div className='container-fluid'>
 				<section className='wrapper-choose'>
 					<img
@@ -52,23 +125,32 @@ export default function Contact() {
 								</p>
 
 								<div className='content-detail-contact'>
-									<input
-										type='email'
-										name=''
-										className='form-control shadow-none mb-3'
-										placeholder='Your Email'
-									/>
+									<form onSubmit={submitContact}>
+										<input
+											ref={emailRef}
+											type='email'
+											name=''
+											className='form-control shadow-none mb-3'
+											placeholder='Your Email'
+											required
+										/>
 
-									<textarea
-										name=''
-										id='text-area'
-										className='form-control shadow-none mb-3 '
-										spellCheck={false}
-										placeholder='Contact detail'></textarea>
+										<textarea
+											required
+											ref={contentRef}
+											name=''
+											id='text-area'
+											className='form-control shadow-none mb-3 '
+											spellCheck={false}
+											placeholder='Contact detail'></textarea>
 
-									<button className='btn btn-submit-contact'>
-										SEND
-									</button>
+										<button
+											type='submit'
+											disabled={isLoading}
+											className='btn btn-submit-contact'>
+											{isLoading ? "LOADING.." : "SEND"}
+										</button>
+									</form>
 								</div>
 							</div>
 						</div>
