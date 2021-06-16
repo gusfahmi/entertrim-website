@@ -27,7 +27,7 @@ export default function Contact() {
 		if (validateEmail(email)) {
 			try {
 				const sendMail = await axios.post(
-					"http://127.0.0.1:3030/sendMail",
+					"https://entertrim-backend.herokuapp.com/sendMail",
 					{
 						email: email,
 						content: content,
