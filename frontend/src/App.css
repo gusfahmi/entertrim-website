@@ -1,0 +1,933 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+ 
+
+body{
+  overflow-x: hidden;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-logo{
+  width: 50px;
+  height: 50px;
+}
+
+.background-dark{
+  background-color: #000;
+}
+
+.fa{
+  color: #fff;
+}
+
+.icon-index{
+  width: 70px;
+  height: 70px;
+}
+
+#text-area{
+  height: 100px;
+  resize: none;
+}
+
+
+.menu-toggle{
+  height: 40px;
+  width: 40px;  
+  cursor: pointer; 
+} 
+
+.menu-1{
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.menu-2{
+  margin-top: 7px;
+  display: block;
+  height: 3px; 
+  width: 70%;
+  background-color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-3{
+  margin-top: 7px;
+  display: block;
+  height: 3px;
+  width: 80%;
+  background-color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+.menu-1.click{
+  width: 100%; 
+  -webkit-transform: translateY(10px) rotate(40deg);
+  -ms-transform: translateY(10px) rotate(40deg);
+  -o-transform: translateY(10px) rotate(40deg);
+  transform: translateY(10px) rotate(40deg);
+}
+
+
+.menu-2.click{
+  width: 0px;
+}
+
+
+.menu-3.click{
+  width: 100%; 
+  -webkit-transform: translateY(-10px) rotate(-40deg);
+  -ms-transform: translateY(-10px) rotate(-40deg);
+  -o-transform: translateY(-10px) rotate(-40deg);
+  transform: translateY(-10px) rotate(-40deg);
+}
+
+svg{
+  margin-top: -5px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+ 
+.btn-gold{ 
+  font-weight: bold; 
+  color: #c39a3b;
+  height: 40px; 
+  width: 80%; 
+  border: 1px solid 	#c39a3b; 
+  transition: all 0.3s; 
+  border-radius: 0px;
+  margin-top: 10px;
+}
+
+.btn-gold:hover{
+  color: #fff;
+  background-color: #c39a3b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#snackbar {
+  visibility: hidden; /* Hidden by default. Visible on click */
+  min-width: 250px; /* Set a default minimum width */  
+  color: #fff; /* White text color */
+  text-align: center; /* Centered text */
+  border-radius: 5px; /* Rounded borders */
+  padding: 16px; /* Padding */
+  position: fixed; /* Sit on top of the screen */
+  z-index: 1; /* Add a z-index if needed */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  bottom: 30px; /* 30px from the bottom */
+  animation: fadeout 0.5s;
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+  visibility: visible; 
+  animation: fadein 0.5s;
+}
+/* #snackbar.hide {
+  visibility: visible; 
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+} */
+ 
+
+@keyframes fadein {
+  from {bottom: 0px; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+ 
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0px; opacity: 0;}
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper-head{
+  width: 100%; 
+  margin: 0px auto;
+}
+
+
+
+.nav-link{
+  color: #fff;
+  font-weight: bold; 
+  margin-left: 10px;
+}
+
+.nav-link:hover{
+  color: #d91b42; 
+}
+
+.nav-link.active{
+  color: #fff;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+ 
+/* ------------------------
+          jumbotron
+------------------------ */
+
+.jumbotron-index{   
+  height: 500px;  
+  margin: 0px auto;
+  background-color: #000; 
+}
+
+.text-title-jumbotron{
+  margin-top: 120px;
+  font-size: 60px;
+  font-weight: 800; 
+  background: linear-gradient(to right, #FFF 20%, #d91b42 40%, #d91b42 60%, #FFF 80%);
+  background-size: 200% auto;
+  
+  color: #000;
+  background-clip: text; 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  animation: shine 6s linear infinite;
+   
+} 
+ 
+.btn-contact{ 
+  height: 50px;
+  width: 170px;
+  background-color: #d91b42;
+  color: #fff;
+  transition: width 0.5s;
+  font-weight: bold;
+}
+
+.btn-contact:hover{
+  width: 220px; 
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------
+      Wrapper Help
+------------------------ */
+
+.wrapper-help{
+  margin: 0px auto;
+  width: 60%;
+  text-align: center;
+}
+.text-title-explain{ 
+   text-align: center; 
+   border-bottom: 1px solid #000; 
+   line-height: 0.1em;
+   margin: 0px auto; 
+}
+.text-title-explain span{
+  background:#fff; 
+  padding:0 10px; 
+}
+
+
+
+
+
+
+
+.wrapper-choose{
+  margin: 80px auto;
+  width: 60%;
+  text-align: center;
+}
+
+
+.wrapper-detail-choose{
+  width: 100%;
+}
+
+
+.list-choose{ 
+  color: #fff;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.list-choose:hover{
+  transform: rotate(-3deg);
+}
+
+.card{
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.img-card{
+  width: 60px;
+  height: 60px;
+  margin: 20px auto;
+}
+
+.card-body{
+  padding: 0px;
+  padding-bottom: 20px;
+}
+
+.card-title{
+  font-size: 20px;
+}
+
+.card-text{
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.list-choose-service{ 
+  color: #fff;
+  transition: 0.3s;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.list-choose-service:hover{
+  transform: rotate(-3deg);
+}
+
+.img-card-service{
+  width: 130px;
+  height: 130px;
+  margin: -55px auto;
+}
+
+.title-service{
+  margin-top: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.list-choose-clients{
+  color: #fff;
+  transition: 0.3s;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.list-choose-clients:hover{
+  transform: rotate(-3deg);
+}
+
+.img-card-clients{
+  width: 125px;
+  height: 125px;
+  margin: 20px auto;
+}
+
+.title-clients{
+  font-size: 19px;
+}
+
+.line-clients{
+  margin : 5px auto;
+  display: block;
+  border-radius: 50px;
+  width: 30%;
+  height: 1px;
+  background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+/* ------------------------
+      Contact
+------------------------ */
+
+.content-contact{
+  width: 100%;
+  border-radius: 10px;
+  background-color: #000;
+  padding: 15px;
+  color: #fff; 
+}
+
+.contact-title{
+  font-size: 25px;
+}
+
+.contact-desc{
+  font-size: 14px;
+}
+
+.contact-detail{
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+.detail-contact{
+  color: #fff;
+  display: block;  
+  text-decoration: none; 
+  transition: 0.5s;
+  font-size: 14px;
+}
+
+.detail-contact:hover {
+  text-decoration: none;  
+  color: #fff;
+}
+
+.detail-contact:hover + .line-contact{
+  width: 150px;
+}
+
+.line-contact{
+  display: block;
+  width: 100px;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.btn-submit-contact{
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 0px;
+  width: 120px;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+.btn-submit-contact:hover{
+  color: #000;
+  width: 150px;
+  background-color: #fff;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+/* ------------------------
+      Footer
+------------------------ */
+
+ 
+
+.wrapper-footer{ 
+  padding: 10px;  
+}
+
+.wrapper-follow{  
+  margin: 30px auto;
+  text-align: center;
+}
+
+.title-footer{
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.social-icon{ 
+  transition: 0.2s;
+  color: #fff; 
+  padding: 20px;
+}
+
+.social-icon-ig:hover{
+  color: #833AB4;
+}
+
+.social-icon-youtube:hover{
+  color: red;
+}
+
+.social-icon-twitter:hover{
+  color: #1DA1F2;
+}
+
+
+.wrapper-link-menu{
+  text-align: center;
+  padding: 20px; 
+  margin-top: 10px; 
+}
+
+.link-footer{
+  color: #fff;
+  margin: 10px;
+}
+
+.link-footer:hover{
+  color: #fff;
+  text-decoration: underline;
+}
+
+
+.wrapper-copyright{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.copyright{
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------
+     Jumbotron Content
+------------------------ */
+
+.jumbotron-content{
+  height: 250px;  
+  margin-top: 75px;
+  color: #fff;
+}
+
+.wrapper-jumbotron-content{
+  text-align: center;
+}
+
+.title-jumbotron-content{
+  font-weight: 800; 
+  background: linear-gradient(to right, #FFF 20%, #d91b42 40%, #d91b42 60%, #FFF 80%);
+  background-size: 200% auto;
+  
+  color: #fff;
+  font-size: 50px;
+  background-clip: text; 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  margin-top: 25px;
+  animation: shine 6s linear infinite;
+}
+
+.line-jumbotron-content{
+  display: block;
+  height: 2px;
+  width: 120px;
+  background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+/* ------------------------
+     about
+------------------------ */
+
+.icon-about{
+  width: 130px;
+  height: 130px; 
+}
+
+.wrap-about-mission{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center; 
+  padding: 10px;
+}
+
+.icon-about-mission{
+  width: 80px;
+  height: 80px;
+  margin: 20px auto;
+  display: block;
+}
+
+.desc-about-mission{
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------
+     Contact
+------------------------ */
+
+.wrap-contact-content{
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.btn-contact-content{
+  width: 200px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 0px;
+  color: #fff;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.btn-contact-content:hover{
+  font-weight: bold;
+  background-color: #fff;
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrap-about-social{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center; 
+  padding: 10px;
+}
+
+.social-ig:hover > .icon-about-social-ig{
+  color: #833AB4;
+}
+
+.social-yt:hover > .icon-about-social-yt{
+  color: red;
+}
+
+.social-tw:hover > .icon-about-social-tw{
+  color: #1DA1F2;
+}
+
+.social-fb:hover > .icon-about-social-fb{
+  color: blue;
+}
+
+
+ 
+.btn-social-content{
+  width: 200px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 0px;
+  color: #fff;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.btn-social-content:hover{
+  font-weight: bold;
+  background-color: #fff;
+  color: #000;
+}
+ 
+
+
+
+
+
+
+
+
+.wrap-contact-modal{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+@media(max-width: 1000px){
+
+  /* .list-choose-service{
+    height: 280px;
+  } */
+  .list-choose-service{
+    margin-bottom: 60px;
+  } 
+
+  /* .list-choose-clients{
+    margin-bottom: 70px;
+  }  */
+
+  .text-title-explain{
+    width: 90%;
+    font-size: 20px;
+  }
+
+  .contact-detail{
+    margin-top: 45px;
+  }
+ 
+
+  .contact-desc{
+    font-size: 13px;
+  }
+  .detail-contact{
+    font-size: 13px;
+  }
+}
+
+
+@media(max-width: 767px){
+
+
+  
+  .mt-mobile{
+    margin-top: 10px;
+  }
+  .text-title-jumbotron{
+    font-size: 45px;
+  }
+
+  .text-desc-jumbotron{
+    font-size: 14px;
+  }
+
+  
+
+
+  .wrapper-help{
+    width: 100%; 
+  }
+
+  .wrapper-choose{
+    width: 100%; 
+  } 
+
+  .content-contact{
+    margin-bottom: 20px;
+  }
+  
+
+  .list-choose-service{
+    margin-bottom: 60px;
+  } 
+ 
+
+
+  .line-clients{
+    width: 50%;
+  }
+
+
+
+
+
+
+  .navbar-collapse { 
+    height: 0vh !important;
+    min-height: 0vh !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    transition: height 0.5s;
+  } 
+
+
+  .navbar-collapse.active { 
+    height: 100vh !important;
+    min-height: 100vh !important; 
+  } 
+
+  .navbar-nav{
+    width: 100%;
+    height: 420px;
+  }
+
+  .nav-link{
+    font-size: 30px;
+  }
+			
+  .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {max-height: none!important;}
+
+  .collapsing {
+       -webkit-transition: none;
+       transition: none;
+  }
+
+
+
+
+
+
+  .title-jumbotron-content{
+    font-size: 45px;
+    width: 95%;
+  }
+ 
+
+  
+}
+
+@media(max-width: 500px){
+  .link-footer{
+    display: block;
+  }
+}
+
+ 
+
+
+ 
+
+ 
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
