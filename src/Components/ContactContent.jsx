@@ -1,8 +1,6 @@
 import React from "react";
 import Socials from "./Socials";
 
-import { Link } from "react-router-dom";
-
 export default function ContactContent() {
 	return (
 		<>
@@ -12,7 +10,7 @@ export default function ContactContent() {
 					<img
 						className='icon-index'
 						src='/assets/icons/contacts.svg'
-						alt='How we can help you | Entertrim'
+						alt='Contact us | Entertrim Technology'
 					/>
 					<h3 className='text-center text-dark mb-5 mt-5 text-title-explain'>
 						<span>We Love to Chat With You</span>
@@ -25,7 +23,7 @@ export default function ContactContent() {
 							<img
 								src='/assets/icons/phone.svg'
 								className='icon-about-mission'
-								alt=''
+								alt='Phone Contact | Entertrim Technology'
 							/>
 							<h3 className='title-about-mission'>Call Us</h3>
 
@@ -41,7 +39,7 @@ export default function ContactContent() {
 							<img
 								src='/assets/icons/email.svg'
 								className='icon-about-mission'
-								alt=''
+								alt='Email Contact | Entertrim Technology'
 							/>
 							<h3 className='title-about-mission'>Email Us</h3>
 
@@ -56,6 +54,7 @@ export default function ContactContent() {
 						</div>
 
 						<iframe
+							title='Address Location'
 							src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.926491537564!2d98.55231024979767!3d3.6043047973643345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x25826e5eb6d7e489!2sResidence%20Banten!5e0!3m2!1sen!2sid!4v1623767898642!5m2!1sen!2sid'
 							style={{
 								width: "100%",

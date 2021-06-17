@@ -20,10 +20,10 @@ export default function Services() {
 			<Helmet
 				title='Our Services | Entertrim Technology'
 				description='Our best technology services for you'
-				keywords='Web Development, Android Development, Software Development, AI Development, Network Development, Server Development, IoT Development, Pembuatan web medan, pembuatan aplikasi medan, pembuatan software medan, pembuatan kecerdasan buatan medan, pembuatan jaringan medan, pembuatan server medan, pembuatan IoT medan, terpercaya, medan, sumatera utara'
+				keywords=''
 			/>
 			<Header />
-			<JumbotronContent titleContent='Our Services' />
+			<JumbotronContent titleContent='OUR SERVICES' />
 
 			<ServicesList />
 			<Footer />

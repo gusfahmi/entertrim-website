@@ -22,12 +22,11 @@ export default function Contact() {
 
 		const email = emailRef.current.value;
 		const content = contentRef.current.value;
-		console.log(validateEmail(email));
 
 		if (validateEmail(email)) {
 			try {
 				const sendMail = await axios.post(
-					"https://entertrim-backend.herokuapp.com/sendMail",
+					`${process.env.REACT_APP_EMAIL_ENDPOINT}`,
 					{
 						email: email,
 						content: content,
@@ -35,7 +34,7 @@ export default function Contact() {
 				);
 				const response = sendMail.data;
 
-				const { status, message } = response;
+				const { status } = response;
 
 				document.querySelector(".toast").classList.add("show");
 				setTimeout(() => {
@@ -81,7 +80,7 @@ export default function Contact() {
 					<img
 						className='icon-index'
 						src='/assets/icons/contacts.svg'
-						alt='How we can help you | Entertrim'
+						alt='Contact us | Entertrim Technology'
 					/>
 					<h3 className='text-center text-dark mb-5 mt-5 text-title-explain'>
 						<span>Let's Get In Touch</span>
@@ -99,17 +98,25 @@ export default function Contact() {
 
 								<div className='content-detail-contact'>
 									<h5 className='contact-detail'>Details</h5>
-									<a href='#' className='detail-contact'>
+									<a
+										href='mailto:halo@entertrim.com'
+										className='detail-contact'>
 										halo@entertrim.com
 									</a>
 									<span className='line-contact'></span>
 
-									<a href='#' className='detail-contact'>
-										+6282166216671 (Phone / Whatsapp / Telegram)
+									<a
+										href='tel:+6282166216671'
+										className='detail-contact'>
+										+62821-6621-6671 (Phone / Whatsapp / Telegram)
 									</a>
 									<span className='line-contact'></span>
 
-									<a href='#' className='detail-contact'>
+									<a
+										href='https://goo.gl/maps/Eq3UoQRjwWk1pykKA'
+										target='_blank'
+										rel='noreferrer'
+										className='detail-contact'>
 										Jl. Medan-Binjai, Diski, Km. 14.5, Gg. Bantan,
 										Deli Serdang, Sumatera Utara.
 									</a>

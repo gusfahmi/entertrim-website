@@ -10,7 +10,7 @@ export default function Services() {
 					<img
 						className='icon-index'
 						src='/assets/icons/services.svg'
-						alt='Our Services | Entertrim'
+						alt='Our Services | Entertrim Technology'
 					/>
 					<h3 className='text-center text-dark mb-5 mt-5 text-title-explain'>
 						<span>OUR SERVICES</span>
@@ -24,7 +24,7 @@ export default function Services() {
 								<img
 									className='card-img-top img-card-service'
 									src='/assets/icons/website.svg'
-									alt='Web Development | Entertrim'
+									alt='Web Development | Entertrim Technology'
 								/>
 								<div className='card-body'>
 									<h5 className='card-title title-service'>Website</h5>
@@ -47,7 +47,7 @@ export default function Services() {
 								<img
 									className='card-img-top img-card-service'
 									src='/assets/icons/android.svg'
-									alt='Android Development | Entertrim'
+									alt='Android Development | Entertrim Technology'
 								/>
 								<div className='card-body'>
 									<h5 className='card-title title-service'>Android</h5>
@@ -69,7 +69,7 @@ export default function Services() {
 								<img
 									className='card-img-top img-card-service'
 									src='/assets/icons/software.svg'
-									alt='Free Domain | Entertrim'
+									alt='Software Development | Entertrim Technology'
 								/>
 								<div className='card-body'>
 									<h5 className='card-title title-service'>
@@ -93,7 +93,7 @@ export default function Services() {
 								<img
 									className='card-img-top img-card-service'
 									src='/assets/icons/ai.svg'
-									alt='Free Domain | Entertrim'
+									alt='Artificial intelligence | Entertrim Technology'
 								/>
 								<div className='card-body'>
 									<h5 className='card-title title-service'>AI</h5>
@@ -116,7 +116,7 @@ export default function Services() {
 								<img
 									className='card-img-top img-card-service'
 									src='/assets/icons/network.svg'
-									alt='Free Domain | Entertrim'
+									alt='Networking | Entertrim Technology'
 								/>
 								<div className='card-body'>
 									<h5 className='card-title title-service'>Network</h5>
@@ -138,7 +138,7 @@ export default function Services() {
 								<img
 									className='card-img-top img-card-service'
 									src='/assets/icons/server.svg'
-									alt='Free Domain | Entertrim'
+									alt='Server | Entertrim Technology'
 								/>
 								<div className='card-body'>
 									<h5 className='card-title title-service'>Server</h5>
@@ -160,7 +160,7 @@ export default function Services() {
 								<img
 									className='card-img-top img-card-service'
 									src='/assets/icons/iot.svg'
-									alt='Free Domain | Entertrim'
+									alt='IoT Development | Entertrim Technology'
 								/>
 								<div className='card-body'>
 									<h5 className='card-title title-service'>IoT</h5>

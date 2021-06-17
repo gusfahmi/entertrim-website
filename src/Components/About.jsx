@@ -8,7 +8,7 @@ export default function AboutUs() {
 					<img
 						className='icon-about'
 						src='/assets/images/logo.svg'
-						alt='About Entertrim Technology'
+						alt='About Entertrim Technology | Consultant Technology in Medan'
 					/>
 					<h3 className='text-center text-dark mb-5 mt-5 text-title-explain'>
 						<span>ENTERTRIM TECHNOLOGY</span>
@@ -17,7 +17,8 @@ export default function AboutUs() {
 						Entertrim Technology is a consultant technology company based
 						on Medan, Sumatera Utara, Indonesia. We have experience to
 						solve and help your business or government problems with our
-						best teams. Let's grow together to make impact in Indonesia.
+						best teams. Let's grow together to make an impact in
+						Indonesia.
 					</p>
 				</section>
 
@@ -27,7 +28,7 @@ export default function AboutUs() {
 							<img
 								src='/assets/icons/vision.svg'
 								className='icon-about-mission'
-								alt=''
+								alt='Our Vision | Entertrim Technology'
 							/>
 
 							<h3 className='title-about-mission'>Our Vision</h3>
@@ -40,7 +41,7 @@ export default function AboutUs() {
 							<img
 								src='/assets/icons/mission.svg'
 								className='icon-about-mission'
-								alt=''
+								alt='Our Mission | Entertrim Technology'
 							/>
 							<h3 className='title-about-mission'>Our Mission</h3>
 							<p className='desc-about-mission'>

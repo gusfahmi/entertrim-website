@@ -22,10 +22,10 @@ export default function Index() {
 	return (
 		<>
 			<Helmet
-				title='Welcome to Entertrim'
-				description='The best IT Consultant in Medan Sumatera Utara'
-				keywords='web medan, pemerintah kota medan, kota medan, medan, indonesia, sumatera utara, deli serdang, binjai, web, aplikasi, software, konsultan, perusahaan it, perusahaan it medan, perusahaan it medan berkualitas, Perusahaan IT Indonesia, Perusahaan IT Medan, Solusi IT Medan, it solutions, jasa website, jasa website medan, website murah, internet murah, internet murah medan, internet promo, layananan 24 jam, teknisi it, konsultant it'
+				title='Entertrim Technology'
+				description='The best consultant IT in Medan, Sumatera Utara | Jasa Pembuatan Website, Aplikasi, Software, IoT, Server dan Kecerdasan Buatan Di Medan'
 			/>
+
 			<Header />
 			<JumbotronIndex />
 
@@ -40,13 +40,9 @@ export default function Index() {
 						<span>HOW CAN WE HELP YOU</span>
 					</h3>
 					<p className='text-center'>
-						Technology will never stop evolving. So with us, you can
-						create any innovation and technology to raise and improve your
-						business.
-						<br />
-						<br /> We will not only help you to solve your problems, we
-						will also help you to raise and grow your business by
-						technology
+						Technology will never stop evolving. By joining us, we will
+						help you to solve your problems and any innovation and
+						technology to raise and improve your business.
 					</p>
 				</section>
 			</div>
@@ -55,7 +51,7 @@ export default function Index() {
 				<path
 					fill='#000'
 					fill-opacity='1'
-					d='M0,64L34.3,64C68.6,64,137,64,206,101.3C274.3,139,343,213,411,234.7C480,256,549,224,617,192C685.7,160,754,128,823,117.3C891.4,107,960,117,1029,128C1097.1,139,1166,149,1234,149.3C1302.9,149,1371,139,1406,133.3L1440,128L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z'></path>
+					d='M0,192L48,197.3C96,203,192,213,288,202.7C384,192,480,160,576,160C672,160,768,192,864,213.3C960,235,1056,245,1152,240C1248,235,1344,213,1392,202.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'></path>
 			</svg>
 
 			<Reasons />

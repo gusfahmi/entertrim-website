@@ -12,68 +12,60 @@ export default function ModalContact() {
 					<div className='modal-content'>
 						<div className='modal-header' style={{ display: "block" }}>
 							<center>
-								<h5 className='modal-title text-center'>CONTACT US</h5>
+								<h5 className='modal-title text-center title-modal-contact'>
+									CONTACT US
+								</h5>
 							</center>
 						</div>
 						<div className='modal-body mb-2'>
 							<div className='wrap-contact-modal'>
-								<a href='tel:+6282166216671'>
-									<button
-										className='btn btn-contact-modal shadow-none'
-										style={{
-											backgroundColor: "#000",
-											width: 70,
-											height: 70,
-										}}>
-										<i
-											className='fa fa-phone fa-2x'
-											style={{ color: "#fff" }}></i>
-									</button>
-								</a>
+								<div className='row'>
+									<div className='col-6 wrap-btn-contact'>
+										<a href='tel:+6282166216671'>
+											<button className='btn btn-contact-modal shadow-none'>
+												<i
+													className='fa fa-phone fa-3x'
+													style={{ color: "#fff" }}></i>
+											</button>
+										</a>
+									</div>
+									<div className='col-6 wrap-btn-contact'>
+										<a
+											href='https://wa.me/6282166216671?text=Hello Entertrim'
+											rel='noreferrer'
+											target='_blank'>
+											<button className='btn btn-contact-modal shadow-none'>
+												<i
+													className='fab fa-whatsapp fa-3x'
+													style={{ color: "#fff" }}></i>
+											</button>
+										</a>
+									</div>
+								</div>
 
-								<a
-									href='https://wa.me/6282166216671?text=Hello Entertrim'
-									target='_blank'>
-									<button
-										className='btn btn-contact-modal shadow-none'
-										style={{
-											backgroundColor: "#000",
-											width: 70,
-											height: 70,
-										}}>
-										<i
-											className='fab fa-whatsapp fa-2x'
-											style={{ color: "#fff" }}></i>
-									</button>
-								</a>
-
-								<a href='https://t.me/@gusfahmi' target='_blank'>
-									<button
-										className='btn btn-contact-modal shadow-none'
-										style={{
-											backgroundColor: "#000",
-											width: 70,
-											height: 70,
-										}}>
-										<i
-											className='fab fa-telegram fa-2x'
-											style={{ color: "#fff" }}></i>
-									</button>
-								</a>
-
-								<a href='mailto:halo@entertrim.com'>
-									<button
-										className='btn btn-contact-modal shadow-none'
-										style={{
-											backgroundColor: "#000",
-											width: 70,
-											height: 70,
-										}}>
-										<i
-											className='fa fa-envelope fa-2x'
-											style={{ color: "#fff" }}></i>
-									</button>
-								</a>
+								<div className='row'>
+									<div className='col-6 wrap-btn-contact'>
+										<a
+											href='https://t.me/@gusfahmi'
+											rel='noreferrer'
+											target='_blank'>
+											<button className='btn btn-contact-modal shadow-none'>
+												<i
+													className='fab fa-telegram fa-3x'
+													style={{ color: "#fff" }}></i>
+											</button>
+										</a>
+									</div>
+									<div className='col-6 wrap-btn-contact'>
+										<a href='mailto:halo@entertrim.com'>
+											<button className='btn btn-contact-modal shadow-none'>
+												<i
+													className='fa fa-envelope fa-3x'
+													style={{ color: "#fff" }}></i>
+											</button>
+										</a>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>

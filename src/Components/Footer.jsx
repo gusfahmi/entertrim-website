@@ -12,24 +12,28 @@ export default function Footer() {
 								<a
 									href='https://instagram.com/entertrim'
 									target='_blank'
+									rel='noreferrer'
 									className='social-icon social-icon-ig'>
 									<i className='fab fa-instagram fa-2x'></i>
 								</a>
 								<a
 									href='https://twitter.com/entertrim'
 									target='_blank'
+									rel='noreferrer'
 									className='social-icon social-icon-twitter'>
 									<i className='fab fa-twitter fa-2x'></i>
 								</a>
 								<a
 									href='https://facebook.com/entertrim'
 									target='_blank'
+									rel='noreferrer'
 									className='social-icon social-icon-facebook'>
 									<i className='fab fa-facebook fa-2x'></i>
 								</a>
 								<a
-									href='#'
+									href='https://www.youtube.com'
 									target='_blank'
+									rel='noreferrer'
 									className='social-icon social-icon-youtube'>
 									<i className='fab fa-youtube fa-2x'></i>
 								</a>

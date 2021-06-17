@@ -8,7 +8,7 @@ export default function Clients() {
 					<img
 						className='icon-index'
 						src='/assets/icons/clients.svg'
-						alt='Our clientss | Entertrim'
+						alt='Entertrim Technology Clients | Consultant Technology in Medan'
 					/>
 					<h3 className='text-center text-dark mb-5 mt-5 text-title-explain'>
 						<span>OUR CLIENTS</span>
@@ -22,7 +22,7 @@ export default function Clients() {
 								<img
 									className='card-img-top img-card-clients'
 									src='/assets/clients/1.png'
-									alt='Amberjaini | Entertrim'
+									alt='Amberjaini | Entertrim Technology'
 								/>
 								<div className='card-body'>
 									<h5 className='card-title title-clients'>
@@ -42,7 +42,7 @@ export default function Clients() {
 								<img
 									className='card-img-top img-card-clients'
 									src='/assets/clients/2.png'
-									alt='Android Development | Entertrim'
+									alt='Kab. Agam | Entertrim Technology'
 								/>
 								<div className='card-body'>
 									<h5 className='card-title title-clients'>
@@ -62,7 +62,7 @@ export default function Clients() {
 								<img
 									className='card-img-top img-card-clients'
 									src='/assets/clients/3.png'
-									alt='Free Domain | Entertrim'
+									alt='Kab. Sergai | Entertrim Technology'
 								/>
 								<div className='card-body'>
 									<h5 className='card-title title-clients'>
@@ -82,7 +82,7 @@ export default function Clients() {
 								<img
 									className='card-img-top img-card-clients'
 									src='/assets/clients/4.png'
-									alt='Free Domain | Entertrim'
+									alt='Telkom | Entertrim Technology'
 								/>
 								<div className='card-body'>
 									<h5 className='card-title title-clients'>Telkom</h5>
@@ -100,7 +100,7 @@ export default function Clients() {
 								<img
 									className='card-img-top img-card-clients'
 									src='/assets/clients/5.png'
-									alt='Free Domain | Entertrim'
+									alt='Kab. Deli Serdang | Entertrim Technology'
 								/>
 								<div className='card-body'>
 									<h5 className='card-title title-clients'>
@@ -120,7 +120,7 @@ export default function Clients() {
 								<img
 									className='card-img-top img-card-clients'
 									src='/assets/clients/6.png'
-									alt='Free Domain | Entertrim'
+									alt='SMP Darussalam | Entertrim Technology'
 								/>
 								<div className='card-body'>
 									<h5 className='card-title title-clients'>
@@ -140,7 +140,7 @@ export default function Clients() {
 								<img
 									className='card-img-top img-card-clients'
 									src='/assets/clients/7.png'
-									alt='Free Domain | Entertrim'
+									alt='Laghiza | Entertrim Technology'
 								/>
 								<div className='card-body'>
 									<h5 className='card-title title-clients'>Laghiza</h5>
@@ -158,7 +158,7 @@ export default function Clients() {
 								<img
 									className='card-img-top img-card-clients'
 									src='/assets/clients/8.png'
-									alt='Free Domain | Entertrim'
+									alt='Autolinx | Entertrim Technology'
 								/>
 								<div className='card-body'>
 									<h5 className='card-title title-clients'>
@@ -178,7 +178,7 @@ export default function Clients() {
 								<img
 									className='card-img-top img-card-clients'
 									src='/assets/clients/9.png'
-									alt='Free Domain | Entertrim'
+									alt='PT. Dat Daramenta | Entertrim Technology'
 								/>
 								<div className='card-body'>
 									<h5 className='card-title title-clients'>
@@ -198,7 +198,7 @@ export default function Clients() {
 								<img
 									className='card-img-top img-card-clients'
 									src='/assets/clients/10.png'
-									alt='Free Domain | Entertrim'
+									alt='Gudang Sayur Kamtibnas | Entertrim Technology'
 								/>
 								<div className='card-body'>
 									<h5 className='card-title title-clients'>
@@ -218,7 +218,7 @@ export default function Clients() {
 								<img
 									className='card-img-top img-card-clients'
 									src='/assets/clients/11.png'
-									alt='Free Domain | Entertrim'
+									alt='Dinas Pendidikan | Entertrim Technology'
 								/>
 								<div className='card-body'>
 									<h5 className='card-title title-clients'>

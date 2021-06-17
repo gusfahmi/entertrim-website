@@ -8,7 +8,7 @@ export default function Socials() {
 					<img
 						className='icon-index'
 						src='/assets/icons/social.svg'
-						alt='How we can help you | Entertrim'
+						alt='Connected | Entertrim Technology'
 					/>
 					<h3 className='text-center text-dark mb-5 mt-5 text-title-explain'>
 						<span>We Love to Connect With You</span>
@@ -27,6 +27,7 @@ export default function Socials() {
 							</p>
 							<a
 								href='https://www.instagram.com/entertrim'
+								rel='noreferrer'
 								target='_blank'>
 								<button className='btn btn-social-content'>
 									Follow
@@ -42,6 +43,7 @@ export default function Socials() {
 							<p className='desc-about-mission'>Follow us on Facebook</p>
 							<a
 								href='https://www.facebook.com/entertrim'
+								rel='noreferrer'
 								target='_blank'>
 								<button className='btn btn-social-content'>
 									Follow
@@ -58,6 +60,7 @@ export default function Socials() {
 							<p className='desc-about-mission'>Follow us on Twitter</p>
 							<a
 								href='https://www.twitter.com/entertrim'
+								rel='noreferrer'
 								target='_blank'>
 								<button className='btn btn-social-content'>
 									Follow

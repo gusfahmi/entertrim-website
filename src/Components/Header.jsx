@@ -28,7 +28,11 @@ export default function Header() {
 		<div className='wrapper-header'>
 			<nav className='navbar navbar-expand-md fixed-top background-dark wrapper-head'>
 				<Link to='/' className='navbar-brand'>
-					<img src='/assets/images/logo.svg' className=' img-logo' />
+					<img
+						src='/assets/images/logo.svg'
+						className=' img-logo'
+						alt='Entertrim Technology'
+					/>
 				</Link>
 				<button
 					id='menu-toggle'

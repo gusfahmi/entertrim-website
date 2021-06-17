@@ -21,10 +21,10 @@ export default function Contacts() {
 			<Helmet
 				title='Contact Us | Entertrim Technology'
 				description="Let's Get in Touch Immediately"
-				keywords='Web Development, Android Development, Software Development, AI Development, Network Development, Server Development, IoT Development, Pembuatan web medan, pembuatan aplikasi medan, pembuatan software medan, pembuatan kecerdasan buatan medan, pembuatan jaringan medan, pembuatan server medan, pembuatan IoT medan, terpercaya, medan, sumatera utara'
+				keywords=''
 			/>
 			<Header />
-			<JumbotronContent titleContent="Let's Get in Touch" />
+			<JumbotronContent titleContent="LET'S GET IN TOUCH" />
 
 			<Contact />
 

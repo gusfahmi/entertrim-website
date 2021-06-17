@@ -8,7 +8,7 @@ export default function Reasons() {
 					<img
 						className='icon-index'
 						src='/assets/icons/request.svg'
-						alt='How we can help you | Entertrim'
+						alt='Choose us | Entertrim Technology'
 					/>
 					<h3 className='text-center text-dark mb-5 mt-5 text-title-explain'>
 						<span>WHY YOU HAVE TO CHOOSE US</span>
@@ -22,7 +22,7 @@ export default function Reasons() {
 								<img
 									className='card-img-top img-card'
 									src='/assets/icons/domain.svg'
-									alt='Free Domain | Entertrim'
+									alt='Free Domain | Entertrim Technology'
 								/>
 								<div className='card-body'>
 									<h5 className='card-title'>Free Domain</h5>
@@ -37,7 +37,7 @@ export default function Reasons() {
 								<img
 									className='card-img-top img-card'
 									src='/assets/icons/hosting.svg'
-									alt='Free Hosting | Entertrim'
+									alt='Free Hosting | Entertrim Technology'
 								/>
 								<div className='card-body'>
 									<h5 className='card-title'>Free Hosting</h5>
@@ -53,7 +53,7 @@ export default function Reasons() {
 								<img
 									className='card-img-top img-card'
 									src='/assets/icons/ssl.svg'
-									alt='Free SSL | Entertrim'
+									alt='Free SSL | Entertrim Technology'
 								/>
 								<div className='card-body'>
 									<h5 className='card-title'>Free SSL</h5>
@@ -70,7 +70,7 @@ export default function Reasons() {
 								<img
 									className='card-img-top img-card'
 									src='/assets/icons/consultant.svg'
-									alt='Free SSL | Entertrim'
+									alt='Free Consultant | Entertrim Technology'
 								/>
 								<div className='card-body'>
 									<h5 className='card-title'>Consultant</h5>
@@ -86,7 +86,7 @@ export default function Reasons() {
 								<img
 									className='card-img-top img-card'
 									src='/assets/icons/guaranteed.svg'
-									alt='Free SSL | Entertrim'
+									alt='Guarantee | Entertrim Technology'
 								/>
 								<div className='card-body'>
 									<h5 className='card-title'>Guarantee</h5>
@@ -102,7 +102,7 @@ export default function Reasons() {
 								<img
 									className='card-img-top img-card'
 									src='/assets/icons/trusted.svg'
-									alt='Free SSL | Entertrim'
+									alt='Experience | Entertrim Technology'
 								/>
 								<div className='card-body'>
 									<h5 className='card-title'>Experience</h5>
