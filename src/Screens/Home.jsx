@@ -41,7 +41,7 @@ export default function Index() {
 					</h3>
 					<p className='text-center'>
 						Technology will never stop evolving. By joining us, we will
-						help you to solve your problems and any innovation and
+						help you to solve your problems and create any innovation and
 						technology to raise and improve your business.
 					</p>
 				</section>

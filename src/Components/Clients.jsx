@@ -17,7 +17,7 @@ export default function Clients() {
 
 				<section className='wrapper-detail-choose '>
 					<div className='row justify-content-center'>
-						<div className='col-lg-3 col-md-5 col-sm-12 m-2 mb-lg-5'>
+						<div className='col-lg-3 col-md-5 col-sm-12 m-2 mb-lg-3'>
 							<div className='card background-dark list-choose-clients'>
 								<img
 									className='card-img-top img-card-clients'
@@ -37,7 +37,7 @@ export default function Clients() {
 							</div>
 						</div>
 
-						<div className='col-lg-3 col-md-5 col-sm-12 m-2 mb-lg-5'>
+						<div className='col-lg-3 col-md-5 col-sm-12 m-2 mb-lg-3'>
 							<div className='card background-dark list-choose-clients'>
 								<img
 									className='card-img-top img-card-clients'
@@ -57,7 +57,7 @@ export default function Clients() {
 							</div>
 						</div>
 
-						<div className='col-lg-3 col-md-5 col-sm-12 m-2 mb-lg-5'>
+						<div className='col-lg-3 col-md-5 col-sm-12 m-2 mb-lg-3'>
 							<div className='card background-dark list-choose-clients'>
 								<img
 									className='card-img-top img-card-clients'
@@ -77,7 +77,7 @@ export default function Clients() {
 							</div>
 						</div>
 
-						<div className='col-lg-3 col-md-5 col-sm-12 m-2 mb-lg-5'>
+						<div className='col-lg-3 col-md-5 col-sm-12 m-2 mb-lg-3'>
 							<div className='card background-dark list-choose-clients'>
 								<img
 									className='card-img-top img-card-clients'
@@ -95,7 +95,7 @@ export default function Clients() {
 							</div>
 						</div>
 
-						<div className='col-lg-3 col-md-5 col-sm-12 m-2 mb-lg-5'>
+						<div className='col-lg-3 col-md-5 col-sm-12 m-2 mb-lg-3'>
 							<div className='card background-dark list-choose-clients'>
 								<img
 									className='card-img-top img-card-clients'
@@ -115,7 +115,7 @@ export default function Clients() {
 							</div>
 						</div>
 
-						<div className='col-lg-3 col-md-5 col-sm-12 m-2 mb-lg-5'>
+						<div className='col-lg-3 col-md-5 col-sm-12 m-2 mb-lg-3'>
 							<div className='card background-dark list-choose-clients'>
 								<img
 									className='card-img-top img-card-clients'
@@ -124,10 +124,10 @@ export default function Clients() {
 								/>
 								<div className='card-body'>
 									<h5 className='card-title title-clients'>
-										SMP Darussalam
+										Kota Binjai
 									</h5>
 									<p className='card-text text-clients'>
-										School Profile
+										Card Scanner
 										<span className='line-clients'></span>
 										Indonesia
 									</p>
@@ -135,7 +135,7 @@ export default function Clients() {
 							</div>
 						</div>
 
-						<div className='col-lg-3 col-md-5 col-sm-12 m-2 mb-lg-5'>
+						<div className='col-lg-3 col-md-5 col-sm-12 m-2 mb-lg-3'>
 							<div className='card background-dark list-choose-clients'>
 								<img
 									className='card-img-top img-card-clients'
@@ -153,7 +153,7 @@ export default function Clients() {
 							</div>
 						</div>
 
-						<div className='col-lg-3 col-md-5 col-sm-12 m-2 mb-lg-5'>
+						<div className='col-lg-3 col-md-5 col-sm-12 m-2 mb-lg-3'>
 							<div className='card background-dark list-choose-clients'>
 								<img
 									className='card-img-top img-card-clients'
@@ -173,7 +173,7 @@ export default function Clients() {
 							</div>
 						</div>
 
-						<div className='col-lg-3 col-md-5 col-sm-12 m-2 mb-lg-5'>
+						<div className='col-lg-3 col-md-5 col-sm-12 m-2 mb-lg-3'>
 							<div className='card background-dark list-choose-clients'>
 								<img
 									className='card-img-top img-card-clients'
@@ -193,7 +193,7 @@ export default function Clients() {
 							</div>
 						</div>
 
-						<div className='col-lg-3 col-md-5 col-sm-12 m-2 mb-lg-5'>
+						<div className='col-lg-3 col-md-5 col-sm-12 m-2 mb-lg-3'>
 							<div className='card background-dark list-choose-clients'>
 								<img
 									className='card-img-top img-card-clients'
@@ -213,7 +213,7 @@ export default function Clients() {
 							</div>
 						</div>
 
-						<div className='col-lg-3 col-md-5 col-sm-12 m-2 mb-lg-5'>
+						<div className='col-lg-3 col-md-5 col-sm-12 m-2 mb-lg-3'>
 							<div className='card background-dark list-choose-clients'>
 								<img
 									className='card-img-top img-card-clients'
@@ -226,6 +226,26 @@ export default function Clients() {
 									</h5>
 									<p className='card-text text-clients'>
 										Employee System
+										<span className='line-clients'></span>
+										Indonesia
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div className='col-lg-3 col-md-5 col-sm-12 m-2 mb-lg-3'>
+							<div className='card background-dark list-choose-clients'>
+								<img
+									className='card-img-top img-card-clients'
+									src='/assets/clients/12.png'
+									alt='SMP Darussalam | Entertrim Technology'
+								/>
+								<div className='card-body'>
+									<h5 className='card-title title-clients'>
+										SMP Darussalam
+									</h5>
+									<p className='card-text text-clients'>
+										Schoole Profile
 										<span className='line-clients'></span>
 										Indonesia
 									</p>

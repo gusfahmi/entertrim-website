@@ -10,8 +10,8 @@ export default function JumbotronIndex() {
 						ENTERTRIM TECHNOLOGY
 					</h2>
 					<p className='text-light text-center mb-5 text-desc-jumbotron'>
-						We will help you to raise your business with innovation and
-						technology
+						We will help you to raise and improve your business with
+						innovation and technology
 					</p>
 					<Link to='/services'>
 						<button
