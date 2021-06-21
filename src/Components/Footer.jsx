@@ -16,29 +16,29 @@ export default function Footer() {
 									href='https://instagram.com/entertrim'
 									target='_blank'
 									rel='noreferrer'
-									className='social-icon social-icon-ig'>
-									<i className='fab fa-instagram fa-2x'></i>
+									className='social-icon'>
+									<i className='fa fa-instagram fa-2x social-icon-ig'></i>
 								</a>
 								<a
 									href='https://twitter.com/entertrim'
 									target='_blank'
 									rel='noreferrer'
-									className='social-icon social-icon-twitter'>
-									<i className='fab fa-twitter fa-2x'></i>
+									className='social-icon '>
+									<i className='fa fa-twitter fa-2x social-icon-twitter'></i>
 								</a>
 								<a
 									href='https://facebook.com/entertrim'
 									target='_blank'
 									rel='noreferrer'
-									className='social-icon social-icon-facebook'>
-									<i className='fab fa-facebook fa-2x'></i>
+									className='social-icon '>
+									<i className='fa fa-facebook fa-2x social-icon-fb'></i>
 								</a>
 								<a
 									href='https://www.youtube.com'
 									target='_blank'
 									rel='noreferrer'
-									className='social-icon social-icon-youtube'>
-									<i className='fab fa-youtube fa-2x'></i>
+									className='social-icon '>
+									<i className='fa fa-youtube fa-2x social-icon-youtube'></i>
 								</a>
 							</div>
 
@@ -66,6 +66,7 @@ export default function Footer() {
 								</a>
 								<a
 									href='https://github.com/gusfahmi'
+									target='_blank'
 									className='link-footer'
 									rel='noreferrer'>
 									Github

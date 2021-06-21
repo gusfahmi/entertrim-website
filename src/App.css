@@ -549,6 +549,10 @@ a:hover{
   color: #833AB4;
 }
 
+.social-icon-fb:hover{
+  color: blue;
+}
+
 .social-icon-youtube:hover{
   color: red;
 }

@@ -38,7 +38,7 @@ export default function ModalContact() {
 											target='_blank'>
 											<button className='btn btn-contact-modal shadow-none'>
 												<i
-													className='fab fa-whatsapp fa-2x'
+													className='fa fa-whatsapp fa-2x'
 													style={{ color: "#fff" }}></i>
 											</button>
 										</a>
@@ -53,7 +53,7 @@ export default function ModalContact() {
 											target='_blank'>
 											<button className='btn btn-contact-modal shadow-none'>
 												<i
-													className='fab fa-telegram fa-2x'
+													className='fa fa-telegram fa-2x'
 													style={{ color: "#fff" }}></i>
 											</button>
 										</a>

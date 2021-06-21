@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import ModalLanguage from "./ModalLanguage";
-
 import { setLang } from "../lib/Language";
 
 export default function Header() {

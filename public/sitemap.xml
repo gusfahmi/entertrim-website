@@ -12,4 +12,16 @@
     <url>
         <loc>https://entertrim-website.vercel.app/services</loc>
     </url>
+    <url>
+        <loc>https://entertrim-website.vercel.app/?lang=id</loc>
+    </url>
+    <url>
+        <loc>https://entertrim-website.vercel.app/about?lang=id</loc>
+    </url>
+    <url>
+        <loc>https://entertrim-website.vercel.app/contact?lang=id</loc>
+    </url>
+    <url>
+        <loc>https://entertrim-website.vercel.app/services?lang=id</loc>
+    </url>
 </urlset>
