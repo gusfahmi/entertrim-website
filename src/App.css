@@ -271,6 +271,10 @@ a:hover{
   background-color: #c39a3b; 
 }
 
+.text-desc-jumbotron{ 
+  width: 75%;
+}
+
 
 
 
@@ -563,7 +567,7 @@ a:hover{
 .link-footer{
   color: #fff;
   margin: 10px;
-  cursor: pointer;
+  cursor: pointer; 
 }
 
 .link-footer:hover{
@@ -871,6 +875,7 @@ a:hover{
 
   .text-desc-jumbotron{
     font-size: 14px;
+    width: 80%;
   }
 
   
@@ -945,6 +950,11 @@ a:hover{
     font-size: 45px;
     width: 95%;
   }
+
+
+.link-footer{
+  display: block;
+}
  
 
   

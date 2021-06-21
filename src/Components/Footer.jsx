@@ -64,6 +64,12 @@ export default function Footer() {
 									download>
 									Proposal
 								</a>
+								<a
+									href='https://github.com/gusfahmi'
+									className='link-footer'
+									rel='noreferrer'>
+									Github
+								</a>
 							</div>
 
 							<div className='wrapper-copyright'>

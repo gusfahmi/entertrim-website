@@ -11,7 +11,7 @@ import Footer from "../Components/Footer";
 
 import Helmet from "../Components//Helmet";
 
-export default function Index({ location }) {
+export default function Index({ location, history }) {
 	if (location.search !== "") {
 		const getLangParams = location.search.split("=")[1];
 		if (
@@ -19,8 +19,24 @@ export default function Index({ location }) {
 			(getLangParams !== undefined && getLangParams === "id")
 		) {
 			localStorage.setItem("lang", "id");
+			history.push("/");
 		}
 	}
+
+	const langHref = () => {
+		const lang = localStorage.getItem("lang");
+		if (lang === "id") {
+			return [
+				"Jasa Pembuatan Website, Aplikasi, Software, Jaringan, Server, Kecerdasan Buatan dan IoT Terbaik di Kota Medan.",
+				"https://www.entertrim.com/?lang=id",
+			];
+		} else {
+			return [
+				"The Best Web, App, Software, Network, Server, AI and IoT Development Services in Medan.",
+				"https://www.entertrim.com/",
+			];
+		}
+	};
 
 	useEffect(() => {
 		window.scrollTo({
@@ -33,12 +49,16 @@ export default function Index({ location }) {
 	return (
 		<>
 			<Helmet
-				title='Entertrim Technology'
-				description='The best consultant IT in Medan, Sumatera Utara | Jasa Pembuatan Website, Aplikasi, Software, IoT, Server dan Kecerdasan Buatan Di Medan'
+				title={`Entertrim Technology - ${langHref()[0]}`}
+				description={langHref()[0]}
+				hrefUrlId='https://www.entertrim.com/?lang=id'
+				ogURL={`${langHref()[1]}`}
 			/>
 
 			<Header />
+
 			<JumbotronIndex />
+
 			<How />
 
 			<Reasons />

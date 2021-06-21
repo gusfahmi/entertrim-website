@@ -10,7 +10,35 @@ import Helmet from "../Components/Helmet";
 
 import { setLang } from "../lib/Language";
 
-export default function About() {
+export default function About({ location, history }) {
+	if (location.search !== "") {
+		const getLangParams = location.search.split("=")[1];
+		if (
+			getLangParams !== null ||
+			(getLangParams !== undefined && getLangParams === "id")
+		) {
+			localStorage.setItem("lang", "id");
+			history.push("/about");
+		}
+	}
+
+	const langHref = () => {
+		const lang = localStorage.getItem("lang");
+		if (lang === "id") {
+			return [
+				"Tentang Kami - Entertrim Technology",
+				"Konsultan IT Terbaik di Kota Medan",
+				"https://www.entertrim.com/about?lang=id",
+			];
+		} else {
+			return [
+				"About Us - Entertrim Technology",
+				"The Best Consultant Technology in Medan",
+				"https://www.entertrim.com/about",
+			];
+		}
+	};
+
 	useEffect(() => {
 		window.scrollTo({
 			top: 0,
@@ -22,9 +50,10 @@ export default function About() {
 	return (
 		<>
 			<Helmet
-				title='Who We Are | Entertrim Technology'
-				description='About Entertrim Technology'
-				keywords=''
+				title={`${langHref()[0]}`}
+				description={langHref()[1]}
+				hrefUrlId='https://www.entertrim.com/about?lang=id'
+				ogURL={`${langHref()[2]}`}
 			/>
 			<Header />
 			<JumbotronContent titleContent={setLang().Jumbotron_About} />

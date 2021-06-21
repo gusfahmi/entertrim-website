@@ -20,6 +20,23 @@ export default function Services({ location, history }) {
 		}
 	}
 
+	const langHref = () => {
+		const lang = localStorage.getItem("lang");
+		if (lang === "id") {
+			return [
+				"Layanan Kami - Entertrim Technology",
+				"Layanan Terbaik kami Untuk Anda",
+				"https://www.entertrim.com/services?lang=id",
+			];
+		} else {
+			return [
+				"Our Services - Entertrim Technology",
+				"Our Best Services for Your Business",
+				"https://www.entertrim.com/services",
+			];
+		}
+	};
+
 	useEffect(() => {
 		window.scrollTo({
 			top: 0,
@@ -31,9 +48,10 @@ export default function Services({ location, history }) {
 	return (
 		<>
 			<Helmet
-				title='Our Services | Entertrim Technology'
-				description='Our best technology services for you'
-				keywords=''
+				title={`${langHref()[0]}`}
+				description={langHref()[1]}
+				hrefUrlId='https://www.entertrim.com/services?lang=id'
+				ogURL={`${langHref()[2]}`}
 			/>
 			<Header />
 			<JumbotronContent titleContent={setLang().Jumbotron_Services} />
