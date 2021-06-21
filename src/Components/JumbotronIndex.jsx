@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import { setLang } from "../lib/Language";
+
 export default function JumbotronIndex() {
 	return (
 		<div>
@@ -10,14 +12,13 @@ export default function JumbotronIndex() {
 						ENTERTRIM TECHNOLOGY
 					</h2>
 					<p className='text-light text-center mb-5 text-desc-jumbotron'>
-						We will help you to raise and improve your business with
-						innovation and technology
+						{setLang().JumbotronIndex_Desc}
 					</p>
 					<Link to='/services'>
 						<button
 							className='btn btn-contact my-2 my-sm-0  shadow-none'
 							type='submit'>
-							SEE SERVICES
+							{setLang().JumbotronIndex_Btn_Services}
 						</button>
 					</Link>
 				</div>

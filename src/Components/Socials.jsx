@@ -1,5 +1,7 @@
 import React from "react";
 
+import { setLang } from "../lib/Language";
+
 export default function Socials() {
 	return (
 		<>
@@ -11,7 +13,7 @@ export default function Socials() {
 						alt='Connected | Entertrim Technology'
 					/>
 					<h3 className='text-center text-dark mb-5 mt-5 text-title-explain'>
-						<span>We Love to Connect With You</span>
+						<span>{setLang().Contact_Title_Connect}</span>
 					</h3>
 				</section>
 
@@ -23,14 +25,14 @@ export default function Socials() {
 							<h3 className='title-about-mission m-2'>Instagram</h3>
 
 							<p className='desc-about-mission'>
-								Follow us on Instagram
+								{setLang().Contact_Follow} Instagram
 							</p>
 							<a
 								href='https://www.instagram.com/entertrim'
 								rel='noreferrer'
 								target='_blank'>
 								<button className='btn btn-social-content'>
-									Follow
+									{setLang().Contact_Btn_Follow}
 								</button>
 							</a>
 						</div>
@@ -40,13 +42,15 @@ export default function Socials() {
 
 							<h3 className='title-about-mission m-2'>Facebook</h3>
 
-							<p className='desc-about-mission'>Follow us on Facebook</p>
+							<p className='desc-about-mission'>
+								{setLang().Contact_Follow} Facebook
+							</p>
 							<a
 								href='https://www.facebook.com/entertrim'
 								rel='noreferrer'
 								target='_blank'>
 								<button className='btn btn-social-content'>
-									Follow
+									{setLang().Contact_Btn_Follow}
 								</button>
 							</a>
 						</div>
@@ -57,13 +61,15 @@ export default function Socials() {
 
 							<h3 className='title-about-mission m-2 '>Twitter</h3>
 
-							<p className='desc-about-mission'>Follow us on Twitter</p>
+							<p className='desc-about-mission'>
+								{setLang().Contact_Follow} Twitter
+							</p>
 							<a
 								href='https://www.twitter.com/entertrim'
 								rel='noreferrer'
 								target='_blank'>
 								<button className='btn btn-social-content'>
-									Follow
+									{setLang().Contact_Btn_Follow}
 								</button>
 							</a>
 						</div>
@@ -73,9 +79,11 @@ export default function Socials() {
 
 							<h3 className='title-about-mission m-2'>Youtube</h3>
 
-							<p className='desc-about-mission'>Subscribe our Channel</p>
+							<p className='desc-about-mission'>
+								{setLang().Contact_Subscribe}
+							</p>
 							<button className='btn btn-social-content'>
-								Subscribe
+								{setLang().Contact_Btn_Subscribe}
 							</button>
 						</div>
 					</div>

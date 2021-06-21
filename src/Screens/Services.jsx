@@ -6,7 +6,20 @@ import JumbotronContent from "../Components/JumbotronContent";
 
 import Helmet from "../Components/Helmet";
 
-export default function Services() {
+import { setLang } from "../lib/Language";
+
+export default function Services({ location, history }) {
+	if (location.search !== "") {
+		const getLangParams = location.search.split("=")[1];
+		if (
+			getLangParams !== null ||
+			(getLangParams !== undefined && getLangParams === "id")
+		) {
+			localStorage.setItem("lang", "id");
+			history.push("/services");
+		}
+	}
+
 	useEffect(() => {
 		window.scrollTo({
 			top: 0,
@@ -23,7 +36,7 @@ export default function Services() {
 				keywords=''
 			/>
 			<Header />
-			<JumbotronContent titleContent='OUR SERVICES' />
+			<JumbotronContent titleContent={setLang().Jumbotron_Services} />
 
 			<ServicesList />
 			<Footer />

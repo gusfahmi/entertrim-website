@@ -1,6 +1,8 @@
 import React from "react";
 import Socials from "./Socials";
 
+import { setLang } from "../lib/Language";
+
 export default function ContactContent() {
 	return (
 		<>
@@ -13,7 +15,7 @@ export default function ContactContent() {
 						alt='Contact us | Entertrim Technology'
 					/>
 					<h3 className='text-center text-dark mb-5 mt-5 text-title-explain'>
-						<span>We Love to Chat With You</span>
+						<span>{setLang().Contact_Title_Chat}</span>
 					</h3>
 				</section>
 
@@ -25,9 +27,13 @@ export default function ContactContent() {
 								className='icon-about-mission'
 								alt='Phone Contact | Entertrim Technology'
 							/>
-							<h3 className='title-about-mission'>Call Us</h3>
+							<h3 className='title-about-mission'>
+								{setLang().Contact_Call_Us}
+							</h3>
 
-							<p className='desc-about-mission'>Available : 24 Hours</p>
+							<p className='desc-about-mission'>
+								{setLang().Contact_Available_Call}
+							</p>
 
 							<a href='tel:+6282166216671'>
 								<button className='btn btn-contact-content'>
@@ -41,10 +47,12 @@ export default function ContactContent() {
 								className='icon-about-mission'
 								alt='Email Contact | Entertrim Technology'
 							/>
-							<h3 className='title-about-mission'>Email Us</h3>
+							<h3 className='title-about-mission'>
+								{setLang().Contact_Email_Us}
+							</h3>
 
 							<p className='desc-about-mission'>
-								Available : 07:00 AM - 00.00 AM
+								{setLang().Contact_Available_Email}
 							</p>
 							<a href='mailto:halo@entertrim.com'>
 								<button className='btn btn-contact-content'>

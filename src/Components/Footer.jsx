@@ -1,9 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ModalLanguage from "./ModalLanguage";
+import { setLang } from "../lib/Language";
 
 export default function Footer() {
 	return (
 		<div>
+			<ModalLanguage />
 			<div className='container-fluid background-dark'>
 				<div className='row justify-content-center'>
 					<div className='col-lg-6 col-md-12 col-sm-12'>
@@ -41,14 +44,20 @@ export default function Footer() {
 
 							<div className='wrapper-link-menu'>
 								<Link to='/services' className='link-footer'>
-									Services
+									{setLang().Footer_Services}
 								</Link>
 								<Link to='/about' className='link-footer'>
-									About
+									{setLang().Footer_About}
 								</Link>
 								<Link to='/contact' className='link-footer'>
-									Contact
+									{setLang().Footer_Contact}
 								</Link>
+								<span
+									className='link-footer'
+									data-toggle='modal'
+									data-target='#modalLanguage'>
+									{setLang().Footer_Language}
+								</span>
 								<a
 									href='/files/Entertrim_Proposal.pdf'
 									className='link-footer'

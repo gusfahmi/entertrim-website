@@ -1,4 +1,5 @@
 import React from "react";
+import { setLang } from "../lib/Language";
 
 export default function Clients() {
 	return (
@@ -11,7 +12,7 @@ export default function Clients() {
 						alt='Entertrim Technology Clients | Consultant Technology in Medan'
 					/>
 					<h3 className='text-center text-dark mb-5 mt-5 text-title-explain'>
-						<span>OUR CLIENTS</span>
+						<span>{setLang().Clients_Title}</span>
 					</h3>
 				</section>
 
@@ -29,7 +30,7 @@ export default function Clients() {
 										Amberjaini
 									</h5>
 									<p className='card-text text-clients'>
-										E-Commerce
+										{setLang().Clients_Amberjaini}
 										<span className='line-clients'></span>
 										Australia
 									</p>
@@ -49,7 +50,7 @@ export default function Clients() {
 										Kab. Agam
 									</h5>
 									<p className='card-text text-clients'>
-										Information System
+										{setLang().Clients_Agam}
 										<span className='line-clients'></span>
 										Indonesia
 									</p>
@@ -69,7 +70,7 @@ export default function Clients() {
 										Kab. Sergai
 									</h5>
 									<p className='card-text text-clients'>
-										Monetary System
+										{setLang().Clients_Sergai}
 										<span className='line-clients'></span>
 										Indonesia
 									</p>
@@ -87,7 +88,7 @@ export default function Clients() {
 								<div className='card-body'>
 									<h5 className='card-title title-clients'>Telkom</h5>
 									<p className='card-text text-clients'>
-										Projects Management
+										{setLang().Clients_Telkom}
 										<span className='line-clients'></span>
 										Indonesia
 									</p>
@@ -107,7 +108,7 @@ export default function Clients() {
 										Kab. Deli Serdang
 									</h5>
 									<p className='card-text text-clients'>
-										Tax Collection
+										{setLang().Clients_Deli}
 										<span className='line-clients'></span>
 										Indonesia
 									</p>
@@ -127,7 +128,7 @@ export default function Clients() {
 										Kota Binjai
 									</h5>
 									<p className='card-text text-clients'>
-										Card Scanner
+										{setLang().Clients_Binjai}
 										<span className='line-clients'></span>
 										Indonesia
 									</p>
@@ -145,7 +146,7 @@ export default function Clients() {
 								<div className='card-body'>
 									<h5 className='card-title title-clients'>Laghiza</h5>
 									<p className='card-text text-clients'>
-										E-Commerce
+										{setLang().Clients_Laghiza}
 										<span className='line-clients'></span>
 										Indonesia
 									</p>
@@ -165,7 +166,7 @@ export default function Clients() {
 										Autolinx
 									</h5>
 									<p className='card-text text-clients'>
-										E-Commerce
+										{setLang().Clients_Autolinx}
 										<span className='line-clients'></span>
 										Australia
 									</p>
@@ -185,7 +186,7 @@ export default function Clients() {
 										PT. Dat Daramenta
 									</h5>
 									<p className='card-text text-clients'>
-										Company Profile
+										{setLang().Clients_Dat}
 										<span className='line-clients'></span>
 										Indonesia
 									</p>
@@ -205,7 +206,7 @@ export default function Clients() {
 										Gudang Sayur
 									</h5>
 									<p className='card-text text-clients'>
-										Supply System
+										{setLang().Clients_Gudang}
 										<span className='line-clients'></span>
 										Indonesia
 									</p>
@@ -225,7 +226,7 @@ export default function Clients() {
 										Dinas Pendidikan
 									</h5>
 									<p className='card-text text-clients'>
-										Employee System
+										{setLang().Clients_Pendidikan}
 										<span className='line-clients'></span>
 										Indonesia
 									</p>
@@ -245,7 +246,7 @@ export default function Clients() {
 										SMP Darussalam
 									</h5>
 									<p className='card-text text-clients'>
-										Schoole Profile
+										{setLang().Clients_Darussalam}
 										<span className='line-clients'></span>
 										Indonesia
 									</p>
@@ -258,9 +259,9 @@ export default function Clients() {
 
 			<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'>
 				<path
-					fill='#000000'
+					fill='#000'
 					fill-opacity='1'
-					d='M0,64L48,80C96,96,192,128,288,138.7C384,149,480,139,576,138.7C672,139,768,149,864,160C960,171,1056,181,1152,165.3C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'></path>
+					d='M0,192L120,181.3C240,171,480,149,720,144C960,139,1200,149,1320,154.7L1440,160L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z'></path>
 			</svg>
 		</>
 	);

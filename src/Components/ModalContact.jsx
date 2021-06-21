@@ -1,5 +1,7 @@
 import React from "react";
 
+import { setLang } from "../lib/Language";
+
 export default function ModalContact() {
 	return (
 		<>
@@ -13,7 +15,7 @@ export default function ModalContact() {
 						<div className='modal-header' style={{ display: "block" }}>
 							<center>
 								<h5 className='modal-title text-center title-modal-contact'>
-									CONTACT US
+									{setLang().ModalContact_Title}
 								</h5>
 							</center>
 						</div>

@@ -8,6 +8,8 @@ import Clients from "../Components/Clients";
 
 import Helmet from "../Components/Helmet";
 
+import { setLang } from "../lib/Language";
+
 export default function About() {
 	useEffect(() => {
 		window.scrollTo({
@@ -25,7 +27,7 @@ export default function About() {
 				keywords=''
 			/>
 			<Header />
-			<JumbotronContent titleContent='WHO WE ARE' />
+			<JumbotronContent titleContent={setLang().Jumbotron_About} />
 
 			<AboutUs />
 

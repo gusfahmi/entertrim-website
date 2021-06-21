@@ -7,6 +7,8 @@ import Contact from "../Components/ContactContent";
 
 import Helmet from "../Components/Helmet";
 
+import { setLang } from "../lib/Language";
+
 export default function Contacts() {
 	useEffect(() => {
 		window.scrollTo({
@@ -24,7 +26,7 @@ export default function Contacts() {
 				keywords=''
 			/>
 			<Header />
-			<JumbotronContent titleContent="LET'S GET IN TOUCH" />
+			<JumbotronContent titleContent={setLang().Jumbotron_Contact} />
 
 			<Contact />
 

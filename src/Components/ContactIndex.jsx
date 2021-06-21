@@ -1,6 +1,9 @@
 import React, { useRef, useState } from "react";
 import axios from "axios";
 import Toast from "./Toast";
+
+import { setLang } from "../lib/Language";
+
 function validateEmail(mail) {
 	if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(mail)) {
 		return true;
@@ -83,7 +86,7 @@ export default function Contact() {
 						alt='Contact us | Entertrim Technology'
 					/>
 					<h3 className='text-center text-dark mb-5 mt-5 text-title-explain'>
-						<span>Let's Get In Touch</span>
+						<span>{setLang().ContactIndex_Title}</span>
 					</h3>
 				</section>
 
@@ -91,13 +94,17 @@ export default function Contact() {
 					<div className='row justify-content-around'>
 						<div className='col-lg-5 col-md-6 col-sm-12'>
 							<div className='content-contact'>
-								<h3 className='contact-title'>Our Contact</h3>
+								<h3 className='contact-title'>
+									{setLang().ContactIndex_Contact_Title}
+								</h3>
 								<p className='contact-desc'>
-									We are waiting for you to contact us immediately
+									{setLang().ContactIndex_Contact_Desc}
 								</p>
 
 								<div className='content-detail-contact'>
-									<h5 className='contact-detail'>Details</h5>
+									<h5 className='contact-detail'>
+										{setLang().ContactIndex_Contact_Details}
+									</h5>
 									<a
 										href='mailto:halo@entertrim.com'
 										className='detail-contact'>
@@ -126,9 +133,11 @@ export default function Contact() {
 						</div>
 						<div className='col-lg-5 col-md-6 col-sm-12'>
 							<div className='content-contact '>
-								<h3 className='contact-title'>Direct Contact</h3>
+								<h3 className='contact-title'>
+									{setLang().ContactIndex_Contact_Direct_Title}
+								</h3>
 								<p className='contact-desc'>
-									Get in touch with us here
+									{setLang().ContactIndex_Contact_Direct_Desc}
 								</p>
 
 								<div className='content-detail-contact'>
@@ -138,7 +147,7 @@ export default function Contact() {
 											type='email'
 											name=''
 											className='form-control shadow-none mb-3'
-											placeholder='Your Email'
+											placeholder='Email'
 											required
 										/>
 
@@ -149,13 +158,29 @@ export default function Contact() {
 											id='text-area'
 											className='form-control shadow-none mb-3 '
 											spellCheck={false}
-											placeholder='Contact detail'></textarea>
+											placeholder={
+												setLang()
+													.ContactIndex_Contact_Direct_Content
+											}></textarea>
 
 										<button
 											type='submit'
 											disabled={isLoading}
 											className='btn btn-submit-contact'>
-											{isLoading ? "LOADING.." : "SEND"}
+											{isLoading ? (
+												<div
+													class='spinner-border text-light '
+													role='status'>
+													<span class='sr-only'>Loading...</span>
+												</div>
+											) : (
+												<span>
+													{
+														setLang()
+															.ContactIndex_Contact_Direct_Btn
+													}
+												</span>
+											)}
 										</button>
 									</form>
 								</div>

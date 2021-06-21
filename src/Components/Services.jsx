@@ -1,6 +1,8 @@
 import React from "react";
 import ModalContact from "./ModalContact";
 
+import { setLang } from "../lib/Language";
+
 export default function Services() {
 	return (
 		<>
@@ -13,7 +15,7 @@ export default function Services() {
 						alt='Our Services | Entertrim Technology'
 					/>
 					<h3 className='text-center text-dark mb-5 mt-5 text-title-explain'>
-						<span>OUR SERVICES</span>
+						<span>{setLang().Services_Title}</span>
 					</h3>
 				</section>
 
@@ -29,14 +31,14 @@ export default function Services() {
 								<div className='card-body'>
 									<h5 className='card-title title-service'>Website</h5>
 									<p className='card-text text-service'>
-										Build any kind of web static, portfolio or web app
+										{setLang().Services_Web}
 									</p>
 
 									<button
 										className='btn btn-gold'
 										data-toggle='modal'
 										data-target='#modalContact'>
-										CONTACT US
+										{setLang().Services_Btn_Contact}
 									</button>
 								</div>
 							</div>
@@ -52,13 +54,13 @@ export default function Services() {
 								<div className='card-body'>
 									<h5 className='card-title title-service'>Android</h5>
 									<p className='card-text text-service'>
-										Build android application for any android system
+										{setLang().Services_Android}
 									</p>
 									<button
 										className='btn btn-gold'
 										data-toggle='modal'
 										data-target='#modalContact'>
-										CONTACT US
+										{setLang().Services_Btn_Contact}
 									</button>
 								</div>
 							</div>
@@ -76,13 +78,13 @@ export default function Services() {
 										Software
 									</h5>
 									<p className='card-text text-service'>
-										Build desktop app for Windows or Mac Os
+										{setLang().Services_Software}
 									</p>
 									<button
 										className='btn btn-gold'
 										data-toggle='modal'
 										data-target='#modalContact'>
-										CONTACT US
+										{setLang().Services_Btn_Contact}
 									</button>
 								</div>
 							</div>
@@ -98,14 +100,13 @@ export default function Services() {
 								<div className='card-body'>
 									<h5 className='card-title title-service'>AI</h5>
 									<p className='card-text text-service'>
-										Build artificial intelligence for web, app or
-										embed system
+										{setLang().Services_AI}
 									</p>
 									<button
 										className='btn btn-gold'
 										data-toggle='modal'
 										data-target='#modalContact'>
-										CONTACT US
+										{setLang().Services_Btn_Contact}
 									</button>
 								</div>
 							</div>
@@ -121,13 +122,13 @@ export default function Services() {
 								<div className='card-body'>
 									<h5 className='card-title title-service'>Network</h5>
 									<p className='card-text text-service'>
-										Build, setup or maintain resource network system
+										{setLang().Services_Network}
 									</p>
 									<button
 										className='btn btn-gold'
 										data-toggle='modal'
 										data-target='#modalContact'>
-										CONTACT US
+										{setLang().Services_Btn_Contact}
 									</button>
 								</div>
 							</div>
@@ -143,13 +144,13 @@ export default function Services() {
 								<div className='card-body'>
 									<h5 className='card-title title-service'>Server</h5>
 									<p className='card-text text-service'>
-										Build, setup or maintain server (hardware / VPS)
+										{setLang().Services_Server}
 									</p>
 									<button
 										className='btn btn-gold'
 										data-toggle='modal'
 										data-target='#modalContact'>
-										CONTACT US
+										{setLang().Services_Btn_Contact}
 									</button>
 								</div>
 							</div>
@@ -165,13 +166,13 @@ export default function Services() {
 								<div className='card-body'>
 									<h5 className='card-title title-service'>IoT</h5>
 									<p className='card-text text-service'>
-										Build controlling system with IoT
+										{setLang().Services_IoT}
 									</p>
 									<button
 										className='btn btn-gold'
 										data-toggle='modal'
 										data-target='#modalContact'>
-										CONTACT US
+										{setLang().Services_Btn_Contact}
 									</button>
 								</div>
 							</div>
@@ -182,9 +183,9 @@ export default function Services() {
 
 			<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'>
 				<path
-					fill='#000000'
+					fill='#000'
 					fill-opacity='1'
-					d='M0,64L48,80C96,96,192,128,288,122.7C384,117,480,75,576,80C672,85,768,139,864,170.7C960,203,1056,213,1152,197.3C1248,181,1344,139,1392,117.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'></path>
+					d='M0,160L120,170.7C240,181,480,203,720,208C960,213,1200,203,1320,197.3L1440,192L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z'></path>
 			</svg>
 		</>
 	);

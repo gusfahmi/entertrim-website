@@ -1,5 +1,7 @@
 import React from "react";
 
+import { setLang } from "../lib/Language";
+
 export default function AboutUs() {
 	return (
 		<>
@@ -13,13 +15,7 @@ export default function AboutUs() {
 					<h3 className='text-center text-dark mb-5 mt-5 text-title-explain'>
 						<span>ENTERTRIM TECHNOLOGY</span>
 					</h3>
-					<p className='text-center'>
-						Entertrim Technology is a consultant technology company based
-						on Medan, Sumatera Utara, Indonesia. We have experience to
-						solve and help your business or government problems with our
-						best teams. Let's grow together to make an impact in
-						Indonesia.
-					</p>
+					<p className='text-center'>{setLang().About_Desc_Entertrim}</p>
 				</section>
 
 				<section className='about-mission'>
@@ -33,8 +29,7 @@ export default function AboutUs() {
 
 							<h3 className='title-about-mission'>Our Vision</h3>
 							<p className='desc-about-mission'>
-								Our vision is to collaborate with business or government
-								to create innovation through technology
+								{setLang().About_Vision}
 							</p>
 						</div>
 						<div className='col-lg-5 col-md-5 background-dark m-2 wrap-about-mission'>
@@ -45,8 +40,7 @@ export default function AboutUs() {
 							/>
 							<h3 className='title-about-mission'>Our Mission</h3>
 							<p className='desc-about-mission'>
-								Our mission is to help, improve and solve business or
-								government problems with technology
+								{setLang().About_Mission}
 							</p>
 						</div>
 					</div>
