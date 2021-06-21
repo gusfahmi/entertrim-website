@@ -33,6 +33,8 @@ export default function ContactContent() {
 
 							<p className='desc-about-mission'>
 								{setLang().Contact_Available_Call}
+								<br />
+								Phone / Whatsapp / Telegram
 							</p>
 
 							<a href='tel:+6282166216671'>
@@ -53,6 +55,8 @@ export default function ContactContent() {
 
 							<p className='desc-about-mission'>
 								{setLang().Contact_Available_Email}
+								<br />
+								{setLang().Contact_Email_Handle}
 							</p>
 							<a href='mailto:halo@entertrim.com'>
 								<button className='btn btn-contact-content'>

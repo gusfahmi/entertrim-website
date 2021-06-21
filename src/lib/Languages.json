@@ -68,6 +68,9 @@
 		"ContactIndex_Contact_Direct_Desc": "Get in touch with us here",
 		"ContactIndex_Contact_Direct_Content": "Contact detail",
 		"ContactIndex_Contact_Direct_Btn": "SEND",
+		"ContactIndex_Success": "Thank you for your contact, We'll response as soon as possible",
+		"ContactIndex_Failed": "Error, Please try again later",
+		"ContactIndex_Invalid": "Invalid Email",
 
 		"About_Desc_Entertrim": "Entertrim Technology is a consultant technology company based on Medan, Sumatera Utara, Indonesia. We provide the best Web, App, Software, Network, Server, AI and IoT Development for you. We have experience to solve and help your business or government problems with our best teams. Let's grow together to make an impact in Indonesia.",
 		"About_Vision": "Our vision is to help, improve and solve business or government problems with technology",
@@ -83,6 +86,7 @@
 		"Contact_Email_Us": "Email Us",
 		"Contact_Available_Email": "Available : 07:00 AM - 00.00 AM",
 		"Contact_Subscribe": "Subscribe to our channel",
+		"Contact_Email_Handle": "Handle by Admin",
 
 		"ModalLanguage_Select": "SELECT LANGUAGE"
 	},
@@ -103,7 +107,7 @@
 		"ModalContact_Title": "KONTAK KAMI",
 
 		"How_Title": "CARA KAMI MEMBANTU ANDA",
-		"How_Content": "Teknologi tidak akan pernah berhenti berkembang. Oleh karena ini, bekerja sama dengan kami adalah pilihan terbaik karena kami akan membuat inovasi dan teknologi untuk membantu mengembangkan bisnis anda.",
+		"How_Content": "Teknologi tidak akan pernah berhenti berkembang. Oleh karena itu, bekerja sama dengan kami adalah pilihan terbaik karena kami akan membuat inovasi dan teknologi untuk membantu mengembangkan bisnis anda.",
 
 		"Jumbotron_About": "TENTANG KAMI",
 		"Jumbotron_Services": "LAYANAN KAMI",
@@ -137,7 +141,7 @@
 		"Clients_Pendidikan": "Sistem Karyawan",
 		"Clients_Darussalam": "Profil Sekolah",
 
-		"Services_Title": "LAYANAN KAMI",
+		"Services_Title": "LAYANAN TERBAIK KAMI",
 		"Services_Web": "Pembuatan web statis, portfolio atau aplikasi website",
 		"Services_Android": "Pembuatan aplikasi android untuk segala jenis OS android",
 		"Services_Software": "Pembuatan software desktop untuk Mac OS dan Windows",
@@ -155,12 +159,15 @@
 		"ContactIndex_Contact_Direct_Desc": "Kontak kami secara langsung",
 		"ContactIndex_Contact_Direct_Content": "Detail kontak",
 		"ContactIndex_Contact_Direct_Btn": "KIRIM",
+		"ContactIndex_Success": "Terimakasih telah menghubungi kami, Kami akan membalas kontak anda secepatnya",
+		"ContactIndex_Failed": "Terjadi kesalahan, Silahkan coba lagi",
+		"ContactIndex_Invalid": "Email tidak valid",
 
 		"About_Desc_Entertrim": "Entertrim Technology meurpakan perusahaan konsultan IT di Medan, Sumatera Utara. Kami menyediakan layanan pembuatan website, aplikasi, software, Kecerdasan Buatan, dan IoT. Dengan pengalaman lebih dari 6 tahun dibidang teknologi, kami akan membantu anda dalam meningkatkan dan mengembangkan bisnis anda melalui invoasi dan teknologi.",
 		"About_Vision": "Visi kami adalah membantu memecahkan masalah yang ada pada bisnis dan pemerintahan dengan inovasi dan teknologi",
 		"About_Mission": "Misi kami adalah berkolaborasi dan bekerja sama dengan sektor bisnis dan pemerintah untuk memberi dampak yang lebih baik",
 
-		"Contact_Title_Connect": "TERHUBUNG DENGAN KAMI",
+		"Contact_Title_Connect": "MENJADI KELUARGA KAMI",
 		"Contact_Follow": "Ikuti kami di",
 		"Contact_Btn_Follow": "IKUTI",
 		"Contact_Btn_Subscribe": "SUBSCRIBE",
@@ -170,6 +177,7 @@
 		"Contact_Email_Us": "Email Kami",
 		"Contact_Available_Email": "Tersedia : 07:00 AM - 00.00 AM",
 		"Contact_Subscribe": "Ikuti Channel Kami",
+		"Contact_Email_Handle": "Ditangani oleh admin",
 
 		"ModalLanguage_Select": "PILIH BAHASA"
 	}

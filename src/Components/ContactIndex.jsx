@@ -46,12 +46,10 @@ export default function Contact() {
 
 				if (status === "success") {
 					setBgToast("#25D366");
-					setStatusMessage(
-						"Thank you for your contact, We'll response as soon as possible"
-					);
+					setStatusMessage(setLang().ContactIndex_Success);
 				} else {
 					setBgToast("#d91b42");
-					setStatusMessage("Error, Please try again later");
+					setStatusMessage(setLang().ContactIndex_Failed);
 				}
 			} catch (e) {
 				setBgToast("#d91b42");
@@ -63,7 +61,7 @@ export default function Contact() {
 			}
 		} else {
 			setBgToast("#d91b42");
-			setStatusMessage("Invalid Email");
+			setStatusMessage(setLang().ContactIndex_Invalid);
 			document.querySelector(".toast").classList.add("show");
 			setTimeout(() => {
 				document.querySelector(".toast").classList.remove("show");
