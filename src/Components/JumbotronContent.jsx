@@ -9,7 +9,7 @@ export default function JumbotronContent({ titleContent }) {
 					{/* <span className='line-jumbotron-content'></span> */}
 				</div>
 			</div>
-			<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'>
+			<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 230'>
 				<path
 					fill='#000'
 					fill-opacity='1'

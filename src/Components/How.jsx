@@ -11,7 +11,7 @@ export default function How() {
 						src='/assets/icons/help.svg'
 						alt='How we can help you | Entertrim'
 					/>
-					<h3 className='text-center text-dark mb-5 mt-5 text-title-explain'>
+					<h3 className='text-center text-dark mb-5 mt-4 text-title-explain'>
 						{/* <span>HOW CAN WE HELP YOU</span> */}
 						<span>{setLang().How_Title}</span>
 					</h3>
