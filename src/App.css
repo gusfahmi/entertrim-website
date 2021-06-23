@@ -154,6 +154,7 @@ a:hover{
   stroke: #fff;
   fill: #fff;
   font-size: 160px;
+  stroke-width: 2;
   font-weight: 800;
 }
 
@@ -177,6 +178,7 @@ a:hover{
   stroke: #fff;
   fill: #fff;
   font-size: 160px;
+  stroke-width: 2;
   font-weight: 800;
 }
 
@@ -1051,28 +1053,19 @@ a:hover{
     stroke-dasharray: 0 50%; 
     stroke-width: 2;
   }
-  20%{
-    fill: rgba(255, 255, 255, 0.4); 
-  }
-  40%{
-    fill: rgba(255, 255, 255, 0.5); 
-  }
-  60%{
-    fill: rgba(255, 255, 255, 0.7); 
-  }
   70%  {
-    fill: rgba(255, 255, 255, 0.8); 
+    fill: rgba(255, 255, 255, 0); 
     stroke: rgba(255, 255, 255,1);
   }
   80%  {
-    fill: rgba(255, 255, 255, 0.9); 
+    fill: rgba(255, 255, 255, 0); 
     stroke: rgba(255, 255, 255,1); 
     stroke-width: 2; 
   }
   100% {
     fill: rgba(255, 255, 255, 1); 
     stroke: rgba(255, 255, 255,1); 
-    stroke-dashoffset: -25%; 
+    stroke-dashoffset: 25%; 
     stroke-dasharray: 50% 0; 
     stroke-width: 2;
   }
