@@ -137,6 +137,53 @@ a:hover{
 
 
 
+.text-animate{
+  width: 100%;
+  margin-top: 120px;
+  height: 90px;
+}
+
+.text-animate svg {
+  width: 100%; 
+  height: 100%;
+  margin: 1px auto;
+}
+.text-animate svg text {
+  text-transform: uppercase;
+  animation: stroke 3s alternate;
+  stroke: #fff;
+  fill: #fff;
+  font-size: 160px;
+  font-weight: 800;
+}
+
+
+
+.text-animate-mobile{
+  display: none;
+  width: 100%;
+  height: 120px;
+  margin-top: 80px;
+}
+
+.text-animate-mobile svg {
+  margin: 10px auto;
+  width: 100%; 
+  height: 100%;
+}
+.text-animate-mobile svg text {
+  text-transform: uppercase;
+  animation: stroke 3s alternate;
+  stroke: #fff;
+  fill: #fff;
+  font-size: 160px;
+  font-weight: 800;
+}
+
+
+
+
+
 
 
 
@@ -879,8 +926,6 @@ a:hover{
 
 
 @media(max-width: 767px){
-
-
   
   .mt-mobile{
     margin-top: 10px;
@@ -982,10 +1027,56 @@ a:hover{
   }
 }
 
+
+
+@media(max-width: 475px){
+  .text-animate{
+    display: none;
+  }
+
+  .text-animate-mobile{
+    display: block;
+  }
+}
+
  
 
 
  
+@keyframes stroke {
+  0%   {
+    fill: rgba(255, 255, 255, 0); 
+    stroke: rgba(255, 255, 255,0.3);
+    stroke-dashoffset: 25%; 
+    stroke-dasharray: 0 50%; 
+    stroke-width: 2;
+  }
+  20%{
+    fill: rgba(255, 255, 255, 0.4); 
+  }
+  40%{
+    fill: rgba(255, 255, 255, 0.5); 
+  }
+  60%{
+    fill: rgba(255, 255, 255, 0.7); 
+  }
+  70%  {
+    fill: rgba(255, 255, 255, 0.8); 
+    stroke: rgba(255, 255, 255,1);
+  }
+  80%  {
+    fill: rgba(255, 255, 255, 0.9); 
+    stroke: rgba(255, 255, 255,1); 
+    stroke-width: 2; 
+  }
+  100% {
+    fill: rgba(255, 255, 255, 1); 
+    stroke: rgba(255, 255, 255,1); 
+    stroke-dashoffset: -25%; 
+    stroke-dasharray: 50% 0; 
+    stroke-width: 2;
+  }
+}
 
  
 @-webkit-keyframes AnimationName {

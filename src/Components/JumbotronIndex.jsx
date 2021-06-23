@@ -8,8 +8,22 @@ export default function JumbotronIndex() {
 		<>
 			<div className='jumbotron-fluid jumbotron-index d-flex justify-content-center align-items-center'>
 				<div className='d-flex flex-column justify-content-center align-items-center p-4'>
-					<h2 className='text-light text-center text-title-jumbotron'>
-						ENTERTRIM TECHNOLOGY
+					<h2 class='text-animate'>
+						<svg viewBox='0 0 2150 120'>
+							<text x='50%' y='50%' dy='.35em' text-anchor='middle'>
+								ENTERTRIM TECHNOLOGY
+							</text>
+						</svg>
+					</h2>
+					<h2 class='text-animate-mobile'>
+						<svg viewBox='0 0 1150 220'>
+							<text x='50%' y='0%' dy='.35em' text-anchor='middle'>
+								ENTERTRIM
+							</text>
+							<text x='50%' y='70%' dy='.35em' text-anchor='middle'>
+								TECHNOLOGY
+							</text>
+						</svg>
 					</h2>
 					<p className='text-light text-center mb-5 text-desc-jumbotron'>
 						{setLang().JumbotronIndex_Desc}
