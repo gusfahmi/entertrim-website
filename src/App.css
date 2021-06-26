@@ -891,6 +891,28 @@ a:hover{
 
 
 
+
+
+
+
+ .wrap-not-found{
+   margin-top: 75px;
+   height: 100%;
+   width: 100%;
+ }
+
+.wrap-not-found img{
+  width: 80%;
+}
+
+
+
+
+
+
+
+
+
 @media(max-width: 1000px){
 
 .wrapper-help{
