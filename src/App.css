@@ -127,7 +127,7 @@ a:hover{
 }
 
 .border-bg-black{
-  height: 60px;
+  height: 10px;
   width: 100%;
   background-color:#000;
   margin-top: 50px;
@@ -182,17 +182,30 @@ a:hover{
   font-weight: 800;
 }
 
+.card{
+  border-radius: 10px;
+  padding: 10px;
+}
 
+.img-card{
+  width: 60px;
+  height: 60px;
+  margin: 20px auto;
+}
 
+.card-body{
+  padding: 0px;
+  padding-bottom: 20px;
+}
 
+.card-title{
+  font-size: 20px;
+}
 
-
-
-
-
-
-
-
+.card-text{
+  font-size: 14px;
+}
+ 
 
 #snackbar {
   visibility: hidden; /* Hidden by default. Visible on click */
@@ -357,7 +370,7 @@ a:hover{
    text-align: center; 
    border-bottom: 1px solid #000; 
    line-height: 0.1em;
-   margin: 0px auto; 
+   margin: 0px auto;  
 }
 .text-title-explain span{
   background:#fff; 
@@ -371,7 +384,8 @@ a:hover{
 
 
 .wrapper-choose{
-  margin: 80px auto;
+  margin: 130px auto;
+  margin-bottom: 0px;
   width: 60%;
   text-align: center;
 }
@@ -384,37 +398,103 @@ a:hover{
 
 .list-choose{ 
   color: #fff;
-  transition: 0.3s;
-  text-align: center;
-}
-
-.list-choose:hover{
-  transform: rotate(-3deg);
-}
-
-.card{
+  transition: 0.3s; 
+  width: 95%;
+  height: 270px;
+  padding: 20px;
+  display: flex; 
+  flex-direction:column;
+  justify-content: space-between;
+  align-items: flex-start;
   border-radius: 10px;
+}
+
+.list-choose:hover{ 
+  transform: rotate(-3deg); 
+}
+
+.col-reason{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.img-card-reason{
+  width: 70px;
+  height: 70px;
+}
+
+
+.content-reason > .card-title{
+  font-size: 25px;
+}
+ 
+
+
+
+
+
+
+
+
+ 
+/* ------------------------
+          How
+------------------------ */
+
+.wrapper-how{
+  width: 100%;
+}
+
+.content-how-description{
   padding: 10px;
+  width: 100%;
+  height: 100%; 
+  display:flex; 
+  justify-content: flex-start;
+  align-items: center;  
 }
 
-.img-card{
-  width: 60px;
-  height: 60px;
-  margin: 20px auto;
+.left-line-how{
+  width: 50px;
+  height: 280px;
+  background-color: #000;
+}
+ 
+
+.content-how-description p{
+  margin-top: 10px;
+  font-size: 15px;
 }
 
-.card-body{
-  padding: 0px;
-  padding-bottom: 20px;
+.content-image-how{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.card-title{
-  font-size: 20px;
+.btn-gold-services{
+  width: 150px;
+  height: 40px;
+  color: #c39a3b;
+  border: 2px solid #c39a3b;
+  border-radius: 0px;
+  transition: all 0.3s;
 }
 
-.card-text{
-  font-size: 14px;
+.btn-gold-services:hover{
+  color: #fff;
+  background-color: #c39a3b;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -930,10 +1010,7 @@ a:hover{
 .wrapper-help{
   margin-bottom: 0px;
 }
-
-  /* .list-choose-service{
-    height: 280px;
-  } */
+ 
   .list-choose-service{
     margin-bottom: 60px;
   } 
@@ -944,7 +1021,6 @@ a:hover{
 
   .text-title-explain{
     width: 100%;
-    font-size: 16px;
     font-weight: 600;
   }
 
@@ -1050,11 +1126,26 @@ a:hover{
   }
 
 
-.link-footer{
-  display: block;
-}
- 
+  .link-footer{
+    display: block;
+  }
 
+  .content-image-how{
+    margin-top: 40px;
+  }
+
+
+
+
+
+  .wrapper-choose{
+    margin: 80px auto;
+    margin-bottom: 0px;
+  }
+ 
+  .text-title-explain{
+    font-size: 20px;
+  }
   
 }
 
@@ -1073,6 +1164,14 @@ a:hover{
 
   .text-animate-mobile{
     display: block;
+  }
+
+  .right-content-how h3{
+    font-size: 25px;
+  }
+
+  .right-content-how p{
+    font-size: 14px;
   }
 }
 
