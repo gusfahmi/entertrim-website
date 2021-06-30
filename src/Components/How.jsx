@@ -28,9 +28,7 @@ export default function How() {
 										<span>{setLang().How_Title}</span>
 									</h3>
 									<p>{setLang().How_Content}</p>
-									<Link
-										to='/services'
-										className='btn btn-gold-services'>
+									<Link to='/services' className='btn btn-gold-how'>
 										Layanan kami
 									</Link>
 								</div>

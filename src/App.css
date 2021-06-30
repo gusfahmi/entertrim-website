@@ -384,7 +384,7 @@ a:hover{
 
 
 .wrapper-choose{
-  margin: 130px auto;
+  margin: 100px auto;
   margin-bottom: 0px;
   width: 60%;
   text-align: center;
@@ -474,7 +474,7 @@ a:hover{
   justify-content: center;
 }
 
-.btn-gold-services{
+.btn-gold-how{
   width: 150px;
   height: 40px;
   color: #c39a3b;
@@ -483,7 +483,7 @@ a:hover{
   transition: all 0.3s;
 }
 
-.btn-gold-services:hover{
+.btn-gold-how:hover{
   color: #fff;
   background-color: #c39a3b;
 }
@@ -509,9 +509,16 @@ a:hover{
 
 .list-choose-service{ 
   color: #fff;
-  transition: 0.3s;
-  text-align: center;
-  margin-bottom: 20px;
+  transition: 0.3s; 
+  width: 100%;
+  height: 530px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 10px;
+  margin-bottom: 30px;
 }
 
 .list-choose-service:hover{
@@ -519,34 +526,63 @@ a:hover{
 }
 
 .img-card-service{
-  width: 130px;
-  height: 130px;
-  margin: -55px auto;
+  width: 90px;
+  height: 90px; 
 }
 
-.title-service{
-  margin-top: 70px;
+.content-services h5{
+  font-size: 25px; 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.list-choose-clients{
+.btn-service-detail{
+  padding: 7px;
+  background-color: #444;
   color: #fff;
-  transition: 0.3s;
-  text-align: center;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: 12.5px;
+  margin-bottom: 10px;
+  border: 1px solid #444;
+  cursor: default; 
+}
+
+.contact-btn-service{
+  width: 100%;
+}
+
+.btn-gold-services{
+  font-weight: bold;
+  color: #c39a3b;
+  height: 40px;
+  width: 100%;
+  border: 1px solid #c39a3b;
+  transition: all 0.3s;
+  border-radius: 0px;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+.list-choose-clients{
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+  transition: 0.3s; 
+  width: 100%;
+  height: 150px;
+  display: flex; 
+  justify-content: flex-start;
+  align-items: center;
   margin-bottom: 30px;
 }
 
@@ -555,24 +591,15 @@ a:hover{
 }
 
 .img-card-clients{
-  width: 125px;
-  height: 125px;
-  margin: 20px auto;
+  width: 90px;
+  height: 90px;   
 }
 
 .title-clients{
   font-size: 19px;
 }
 
-.line-clients{
-  margin : 5px auto;
-  display: block;
-  border-radius: 50px;
-  width: 30%;
-  height: 1px;
-  background-color: #fff;
-}
-
+ 
 
 
 
@@ -1002,7 +1029,11 @@ a:hover{
 
 
 
-
+@media(max-width: 1010px){
+  .list-choose-service{
+    height: 550px;
+  }
+}
 
 
 @media(max-width: 1000px){
@@ -1069,7 +1100,7 @@ a:hover{
   
 
   .list-choose-service{
-    margin-bottom: 60px;
+    margin-bottom: 30px;
   } 
  
 
@@ -1145,6 +1176,11 @@ a:hover{
  
   .text-title-explain{
     font-size: 20px;
+  }
+
+
+  .list-choose-service{
+    height: 480px;
   }
   
 }
