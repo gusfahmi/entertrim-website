@@ -43,6 +43,7 @@ export default function Footer() {
 							</li>
 						</ul>
 					</div>
+
 					<div className='wrap-menu-footer'>
 						<ul>
 							<li>

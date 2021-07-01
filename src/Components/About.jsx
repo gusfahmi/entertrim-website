@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import { setLang } from "../lib/Language";
 
@@ -6,45 +7,63 @@ export default function AboutUs() {
 	return (
 		<>
 			<div className='container-fluid'>
-				<section className='wrapper-choose'>
-					<img
-						className='icon-about'
-						src='/assets/images/logo.svg'
-						alt='About Entertrim Technology | Consultant Technology in Medan'
-					/>
-					<h3 className='text-center text-dark mb-5 mt-5 text-title-explain'>
-						<span>ENTERTRIM TECHNOLOGY</span>
-					</h3>
-					<p className='text-center'>{setLang().About_Desc_Entertrim}</p>
-				</section>
-
-				<section className='about-mission'>
+				<div className='wrapper-about '>
 					<div className='row justify-content-center'>
-						<div className='col-lg-5 col-md-5 background-dark m-2 wrap-about-mission'>
-							<img
-								src='/assets/icons/vision.svg'
-								className='icon-about-mission'
-								alt='Our Vision | Entertrim Technology'
-							/>
-
-							<h3 className='title-about-mission'>Our Vision</h3>
-							<p className='desc-about-mission'>
-								{setLang().About_Vision}
-							</p>
+						<div className='col-lg-5 '>
+							<div className='content-about-description '>
+								<div className='left-line-about mr-3'></div>
+								<div className='right-content-about'>
+									<h3>
+										<span>Entertrim Technology</span>
+									</h3>
+									<p>{setLang().About_Desc_Entertrim}</p>
+									<Link to='/services' className='btn btn-gold-about'>
+										{setLang().JumbotronIndex_Btn_Services}
+									</Link>
+								</div>
+							</div>
 						</div>
-						<div className='col-lg-5 col-md-5 background-dark m-2 wrap-about-mission'>
-							<img
-								src='/assets/icons/mission.svg'
-								className='icon-about-mission'
-								alt='Our Mission | Entertrim Technology'
-							/>
-							<h3 className='title-about-mission'>Our Mission</h3>
-							<p className='desc-about-mission'>
-								{setLang().About_Mission}
-							</p>
+						<div className='col-lg-7 '>
+							<div className='content-image-about'>
+								<img src='/assets/icons/about_icon.svg' alt='' />
+							</div>
 						</div>
 					</div>
-				</section>
+				</div>
+
+				<div className='about-mission'>
+					<div className='row justify-content-center'>
+						<div className='col-lg-6 col-md-6 d-flex justify-content-center align-items-center'>
+							<div className='wrap-vision-content'>
+								<img
+									src='/assets/icons/vision.svg'
+									alt='Our Vision | Entertrim Technology'
+								/>
+
+								<h3 className='title-about-mission'>
+									{setLang().About_Vision_Title}
+								</h3>
+								<p className='desc-about-mission'>
+									{setLang().About_Vision}
+								</p>
+							</div>
+						</div>
+						<div className='col-lg-6 col-md-6 d-flex justify-content-center align-items-center'>
+							<div className='wrap-mission-content'>
+								<img
+									src='/assets/icons/mission.svg'
+									alt='Our Mission | Entertrim Technology'
+								/>
+								<h3 className='title-about-mission'>
+									{setLang().About_Mission_Title}
+								</h3>
+								<p className='desc-about-mission'>
+									{setLang().About_Mission}
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</>
 	);

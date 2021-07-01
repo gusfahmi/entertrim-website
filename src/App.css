@@ -881,30 +881,124 @@ a:hover{
      about
 ------------------------ */
 
-.icon-about{
-  width: 130px;
-  height: 130px; 
+.wrapper-about{
+  width: 100%; 
 }
 
-.wrap-about-mission{
+.content-about-description{
+  padding: 10px;
   width: 100%;
-  height: auto;
-  border-radius: 10px;
+  height: 100%; 
+  display:flex; 
+  justify-content: flex-start;
+  align-items: center;  
+}
+
+.left-line-about{
+  width: 50px;
+  height: 280px;
+  background-color: #000;
+}
+ 
+
+.content-about-description p{
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.content-image-about{
+  display:flex; 
+  justify-content: center;
+  align-items:center; 
+}
+
+.content-image-about img{
+  width: 80%;
+}
+
+.btn-gold-about{
+  width: 150px;
+  height: 40px;
+  color: #c39a3b;
+  border: 2px solid #c39a3b;
+  border-radius: 0px;
+  transition: all 0.3s;
+}
+
+.btn-gold-about:hover{
   color: #fff;
-  text-align: center; 
+  background-color: #c39a3b;
+}
+
+
+
+
+.about-mission{
+  margin-top: 70px;
+}
+
+.wrap-vision-content{
+  width: 80%;
+  height: 300px;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+   padding: 20px;
+  border-radius: 10px;
+}
+
+.wrap-vision-content img{
+  width: 100px;
+  height: 100px;
+}
+
+.wrap-vision-content h3{
+  text-align: center;
+  color: #fff;
+}
+
+.wrap-vision-content p{
+  text-align: center;
+  color: #fff;
+}
+
+
+
+.wrap-mission-content{
+  width: 80%;
+  height: 300px;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  border-radius: 10px;
   padding: 10px;
 }
 
-.icon-about-mission{
-  width: 80px;
-  height: 80px;
-  margin: 20px auto;
-  display: block;
+.wrap-mission-content img{
+  width: 100px;
+  height: 100px;
 }
 
-.desc-about-mission{
-  font-size: 14px;
+.wrap-mission-content h3{
+  text-align: center;
+  color: #fff;
 }
+
+.wrap-mission-content p{
+  text-align: center;
+  color: #fff;
+}
+
+
+
+
+
+
+
 
 
 
@@ -1374,6 +1468,51 @@ a:hover{
     display: block;  
     margin-top: 10px;
     text-align: center;
+  }
+
+
+
+
+
+  .wrap-img-top-about{
+    height: 400px;
+    background-color: red;
+  }
+
+  .wrap-img-top-about img{
+    width: 100%;
+  }
+
+  .wrap-desc-top{
+    height: 250px; 
+    margin-bottom: 30px;
+  }
+
+  .right-desc-p{
+    font-size: 14.5px;
+  }
+
+
+
+
+  .wrapper-about{
+    margin-top: 50px;
+  }
+  .content-image-about{
+    margin-top: 20px;
+  }
+
+  .content-image-about img{
+    width: 100%;
+  }
+
+
+
+
+
+
+  .wrap-vision-content{
+    margin-bottom: 20px;
   }
  
   
