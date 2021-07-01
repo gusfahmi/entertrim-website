@@ -90,53 +90,22 @@ export default function Contact() {
 
 				<section className='wrapper-contact'>
 					<div className='row justify-content-around'>
-						<div className='col-lg-5 col-md-6 col-sm-12'>
+						<div className='col-lg-6 col-md-6 d-flex justify-content-center align-items-center '>
 							<div className='content-contact'>
-								<h3 className='contact-title'>
-									{setLang().ContactIndex_Contact_Title}
-								</h3>
-								<p className='contact-desc'>
-									{setLang().ContactIndex_Contact_Desc}
-								</p>
-
-								<div className='content-detail-contact'>
-									<h5 className='contact-detail'>
-										{setLang().ContactIndex_Contact_Details}
-									</h5>
-									<a
-										href='mailto:halo@entertrim.com'
-										className='detail-contact'>
-										halo@entertrim.com
-									</a>
-									<span className='line-contact'></span>
-
-									<a
-										href='tel:+6282166216671'
-										className='detail-contact'>
-										+62821-6621-6671 (Phone / Whatsapp / Telegram)
-									</a>
-									<span className='line-contact'></span>
-
-									<a
-										href='https://goo.gl/maps/Eq3UoQRjwWk1pykKA'
-										target='_blank'
-										rel='noreferrer'
-										className='detail-contact'>
-										Jl. Medan-Binjai, Diski, Km. 14.5, Gg. Bantan,
-										Deli Serdang, Sumatera Utara.
-									</a>
-									<span className='line-contact'></span>
-								</div>
+								<img src='/assets/icons/direct_contact.svg' alt='' />
 							</div>
 						</div>
-						<div className='col-lg-5 col-md-6 col-sm-12'>
-							<div className='content-contact '>
-								<h3 className='contact-title'>
-									{setLang().ContactIndex_Contact_Direct_Title}
-								</h3>
-								<p className='contact-desc'>
-									{setLang().ContactIndex_Contact_Direct_Desc}
-								</p>
+
+						<div className='col-lg-6 col-md-6 d-flex justify-content-center align-items-center '>
+							<div className='content-direct-contact'>
+								<div className='wrap-title-direct'>
+									<h3 className='contact-title'>
+										{setLang().ContactIndex_Contact_Direct_Title}
+									</h3>
+									<p className='contact-desc'>
+										{setLang().ContactIndex_Contact_Direct_Desc}
+									</p>
+								</div>
 
 								<div className='content-detail-contact'>
 									<form onSubmit={submitContact}>
@@ -144,7 +113,7 @@ export default function Contact() {
 											ref={emailRef}
 											type='email'
 											name=''
-											className='form-control shadow-none mb-3'
+											className='shadow-none mb-3 form-input-direct'
 											placeholder='Email'
 											required
 										/>
@@ -153,8 +122,7 @@ export default function Contact() {
 											required
 											ref={contentRef}
 											name=''
-											id='text-area'
-											className='form-control shadow-none mb-3 '
+											className='form-detail-direct shadow-none mb-3 '
 											spellCheck={false}
 											placeholder={
 												setLang()

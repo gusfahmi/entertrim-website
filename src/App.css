@@ -133,6 +133,9 @@ a:hover{
   margin-top: 50px;
 }
 
+ 
+
+
 
 
 
@@ -560,6 +563,10 @@ a:hover{
   border-radius: 0px;   
 }
 
+.btn-gold-services:hover{
+  background-color: #c39a3b;
+  color: #fff;
+}
 
 
 
@@ -612,55 +619,65 @@ a:hover{
       Contact
 ------------------------ */
 
-.content-contact{
-  width: 100%;
-  border-radius: 10px;
-  background-color: #000;
+.content-contact{ 
+  width: 90%; 
+  height: 530px;
   padding: 15px;
-  color: #fff; 
+  display: flex;
+  justify-content:center;
+  align-items: center; 
+}
+
+.content-contact img{
+  width: 80%; 
+}
+
+
+.content-direct-contact{ 
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #000;
+  width: 90%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .contact-title{
+  color: #fff;
   font-size: 25px;
 }
 
 .contact-desc{
+  color: #fff;
   font-size: 14px;
 }
 
-.contact-detail{
-  margin-top: 50px;
-  font-size: 18px;
+
+.content-detail-contact{
+  width: 100%;
 }
 
-.detail-contact{
-  color: #fff;
-  display: block;  
-  text-decoration: none; 
-  transition: 0.5s;
-  font-size: 14px;
+.form-input-direct{
+  padding: 10px;
+  border: 1px solid #fff;
+  width: 100%;
+  outline: none;
 }
 
-.detail-contact:hover {
-  text-decoration: none;  
-  color: #fff;
-}
-
-.detail-contact:hover + .line-contact{
-  width: 150px;
-}
-
-.line-contact{
-  display: block;
-  width: 100px;
-  height: 2px;
-  background-color: #fff;
-  margin-bottom: 20px;
-  transition: 0.3s;
+.form-detail-direct{
+  resize: none;
+  border: 1px solid #fff;
+  height: 220px;
+  padding: 10px;
+  width: 100%;
+  outline: none;
 }
 
 .btn-submit-contact{
-  color: #fff;
+  color: #c39a3b;
   border: 2px solid #c39a3b;
   border-radius: 0px;
   width: 120px;
@@ -855,6 +872,7 @@ a:hover{
   padding: 10px;
   color: #fff;
   text-align: center;
+  overflow: hidden;
 }
 
 .btn-contact-content{
@@ -1029,6 +1047,77 @@ a:hover{
 
 
 
+
+
+
+
+
+
+
+
+.text-animate-large{
+  display: none;
+  width: 950px;
+  margin-top: 120px;
+  height: 90px; 
+}
+
+.text-animate-large svg {
+  width: 100%; 
+  height: 100%;
+  margin: 1px auto;
+}
+.text-animate-large svg text {
+  text-transform: uppercase;
+  animation: stroke 3s alternate;
+  stroke: #fff;
+  fill: #fff;
+  font-size: 350px;
+  stroke-width: 2;
+  font-weight: 800;
+}
+
+
+
+ @media(min-width: 1400px) {
+   .container-fluid{
+     width: 75%;
+   }
+
+   .wrapper-header{
+     width: 100%;
+     height: 76px;
+     background-color:#000;
+     position: fixed;
+     top: 0px;
+     z-index: 1;
+   }
+
+   .navbar{
+     width: 80%;
+   }
+
+   .jumbotron-index{
+     height: 600px;
+   }
+
+   .text-animate{
+     display: none; 
+   }
+
+   .text-animate-large{
+     display: block;
+    margin-top: 190px;
+   }
+
+   .text-desc-jumbotron{
+     font-size: 20px;
+   }
+ }
+
+
+
+
 @media(max-width: 1010px){
   .list-choose-service{
     height: 550px;
@@ -1182,6 +1271,7 @@ a:hover{
   .list-choose-service{
     height: 480px;
   }
+
   
 }
 

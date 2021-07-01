@@ -15,6 +15,13 @@ export default function JumbotronIndex() {
 							</text>
 						</svg>
 					</h2>
+					<h2 class='text-animate-large'>
+						<svg viewBox='0 0 4500 30'>
+							<text x='50%' y='50%' dy='.35em' text-anchor='middle'>
+								ENTERTRIM TECHNOLOGY
+							</text>
+						</svg>
+					</h2>
 					<h2 class='text-animate-mobile'>
 						<svg viewBox='0 0 1150 220'>
 							<text x='50%' y='0%' dy='.35em' text-anchor='middle'>

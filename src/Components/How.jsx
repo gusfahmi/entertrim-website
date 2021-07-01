@@ -29,7 +29,7 @@ export default function How() {
 									</h3>
 									<p>{setLang().How_Content}</p>
 									<Link to='/services' className='btn btn-gold-how'>
-										Layanan kami
+										{setLang().JumbotronIndex_Btn_Services}
 									</Link>
 								</div>
 							</div>

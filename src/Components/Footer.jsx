@@ -7,7 +7,7 @@ export default function Footer() {
 	return (
 		<div>
 			<ModalLanguage />
-			<div className='container-fluid background-dark'>
+			<div className='background-dark'>
 				<div className='row justify-content-center'>
 					<div className='col-lg-6 col-md-12 col-sm-12'>
 						<div className='wrapper-footer'>
