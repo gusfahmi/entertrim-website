@@ -5,7 +5,7 @@ export default function Reasons() {
 	return (
 		<>
 			<div className='container-fluid'>
-				<section className='wrapper-choose'>
+				<section className='wrapper-choose '>
 					<img
 						className='icon-index'
 						src='/assets/icons/request.svg'
@@ -16,9 +16,9 @@ export default function Reasons() {
 					</h3>
 				</section>
 
-				<section className='wrapper-detail-choose'>
-					<div className='row justify-content-center p-3'>
-						<div className=' col-lg-4 col-md-6 p-2 col-reason'>
+				<section className='wrapper-detail-choose '>
+					<div className='row justify-content-center p-3 '>
+						<div className=' col-lg-4 col-md-6 p-2 col-reason '>
 							<div className='list-choose background-dark '>
 								<div className='wrap-img-reason'>
 									<img

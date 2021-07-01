@@ -5,23 +5,11 @@ import { Link } from "react-router-dom";
 export default function How() {
 	return (
 		<>
-			<div className='container-fluid'>
-				{/* <section className='wrapper-help'>
-					<img
-						className='icon-index'
-						src='/assets/icons/help.svg'
-						alt='How we can help you | Entertrim'
-					/>
-					<h3 className='text-center text-dark mb-5 mt-4 text-title-explain'>
-						<span>{setLang().How_Title}</span>
-					</h3>
-					<p className='text-center'>{setLang().How_Content}</p>
-				</section> */}
-
-				<div className='wrapper-how'>
+			<div className='container-fluid '>
+				<div className='wrapper-how '>
 					<div className='row justify-content-center'>
-						<div className='col-lg-5'>
-							<div className='content-how-description'>
+						<div className='col-lg-5 '>
+							<div className='content-how-description '>
 								<div className='left-line-how mr-3'></div>
 								<div className='right-content-how'>
 									<h3>
@@ -34,7 +22,7 @@ export default function How() {
 								</div>
 							</div>
 						</div>
-						<div className='col-lg-7'>
+						<div className='col-lg-7 '>
 							<div className='content-image-how'>
 								<img src='/assets/icons/business.svg' alt='' />
 							</div>

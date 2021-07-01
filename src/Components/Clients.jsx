@@ -4,7 +4,7 @@ import { setLang } from "../lib/Language";
 export default function Clients() {
 	return (
 		<>
-			<div className='container-fluid'>
+			<div className='container-fluid '>
 				<section className='wrapper-choose'>
 					<img
 						className='icon-index'
