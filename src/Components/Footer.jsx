@@ -22,22 +22,34 @@ export default function Footer() {
 					<div className='wrap-social-footer'>
 						<ul>
 							<li>
-								<a href=''>
+								<a
+									href='https://www.instagram.com/entertrim/'
+									rel='noreferrer'
+									target='_blank'>
 									<i className='fa fa-instagram fa-ig-footer fa-2x'></i>
 								</a>
 							</li>
 							<li>
-								<a href=''>
+								<a
+									href='https://www.facebook.com/entertrim/'
+									rel='noreferrer'
+									target='_blank'>
 									<i className='fa fa-facebook fa-fb-footer fa-2x'></i>
 								</a>
 							</li>
 							<li>
-								<a href=''>
+								<a
+									href='https://www.twitter.com/entertrim/'
+									rel='noreferrer'
+									target='_blank'>
 									<i className='fa fa-twitter fa-twitter-footer fa-2x'></i>
 								</a>
 							</li>
 							<li>
-								<a href=''>
+								<a
+									href='https://www.youtube.com/'
+									target='_blank'
+									rel='noreferrer'>
 									<i className='fa fa-youtube fa-youtube-footer fa-2x'></i>
 								</a>
 							</li>
@@ -64,7 +76,9 @@ export default function Footer() {
 								</span>
 							</li>
 							<li>
-								<a href='/files/Entertrim_Proposal.pdf'>Proposal</a>
+								<a href='/files/Entertrim_Proposal.pdf' download>
+									Proposal
+								</a>
 							</li>
 							<li>
 								<a

@@ -6,7 +6,6 @@ export default function JumbotronContent({ titleContent }) {
 			<div className='jumbotron-fluid jumbotron-content background-dark d-flex justify-content-center align-items-center'>
 				<div className='wrapper-jumbotron-content d-flex flex-column justify-content-center align-items-center'>
 					<h1 className='title-jumbotron-content'>{titleContent}</h1>
-					{/* <span className='line-jumbotron-content'></span> */}
 				</div>
 			</div>
 			<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 230'>

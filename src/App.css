@@ -839,9 +839,9 @@ a:hover{
 ------------------------ */
 
 .jumbotron-content{
-  height: 250px;  
+  height: 300px;  
   margin-top: 75px;
-  color: #fff;
+  color: #fff; 
 }
 
 .wrapper-jumbotron-content{
@@ -851,10 +851,9 @@ a:hover{
 .title-jumbotron-content{
   font-weight: 800; 
   background: linear-gradient(to right, #FFF 20%, #C0C0C0 40%, #C0C0C0 60%, #FFF 80%);
-  background-size: 200% auto;
-  
+  background-size: 200% auto; 
   color: #fff;
-  font-size: 50px;
+  font-size: 60px;
   background-clip: text; 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
@@ -933,13 +932,15 @@ a:hover{
 
 
 
+
+
 .about-mission{
-  margin-top: 70px;
+  margin-top: 80px;
 }
 
 .wrap-vision-content{
-  width: 80%;
-  height: 300px;
+  width: 90%;
+  height: 350px;
   background-color: #000;
   display: flex;
   flex-direction: column;
@@ -957,6 +958,7 @@ a:hover{
 .wrap-vision-content h3{
   text-align: center;
   color: #fff;
+  margin-top: 20px;
 }
 
 .wrap-vision-content p{
@@ -967,8 +969,8 @@ a:hover{
 
 
 .wrap-mission-content{
-  width: 80%;
-  height: 300px;
+  width: 90%;
+  height: 350px;
   background-color: #000;
   display: flex;
   flex-direction: column;
@@ -986,6 +988,7 @@ a:hover{
 .wrap-mission-content h3{
   text-align: center;
   color: #fff;
+  margin-top: 20px;
 }
 
 .wrap-mission-content p{
@@ -1013,6 +1016,75 @@ a:hover{
 /* ------------------------
      Contact
 ------------------------ */
+
+.wrap-phone-contact{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:  center;
+  background-color: #000;
+  border-radius: 10px;
+}
+
+.wrap-phone-contact img{
+  width: 100px;
+  height: 100px;
+}
+
+.wrap-phone-contact h3{
+  color: #fff;
+  margin-top: 20px;
+}
+
+.wrap-phone-contact p{
+  margin-top: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+
+
+
+
+
+
+.wrap-email-contact{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:  center;
+  background-color: #000;
+  border-radius: 10px;
+}
+
+.wrap-email-contact img{
+  width: 100px;
+  height: 100px;
+}
+
+.wrap-email-contact h3{
+  color: #fff;
+  margin-top: 20px;
+}
+
+.wrap-email-contact p{
+  margin-top: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
 
 .wrap-contact-content{
   padding: 10px;
@@ -1048,6 +1120,31 @@ a:hover{
 
 
 
+
+
+
+.wrap-social-family{
+  width: 90%;
+  height: 350px;
+  background-color: #000;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.wrap-social-family h3{
+  color: #fff;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.wrap-social-family p{
+  color: #fff;
+  text-align: center;
+}
 
 
 
@@ -1225,7 +1322,19 @@ a:hover{
 
 
 
- @media(min-width: 1400px) {
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 1400px) {
    .container-fluid{
      width: 75%;
    }
@@ -1259,6 +1368,33 @@ a:hover{
    .text-desc-jumbotron{
      font-size: 20px;
    }
+
+
+
+  .wrap-email-contact{
+    width: 500px;
+  }
+
+  .wrap-phone-contact{
+    width: 500px;
+  }
+
+
+  .wrap-social-family{
+    width: 500px;
+  }
+
+
+
+  .jumbotron-content{
+    height: 400px;
+  }
+
+  .title-jumbotron-content{
+    margin-top: 100px;
+  }
+  
+
  }
 
 
@@ -1513,6 +1649,24 @@ a:hover{
 
   .wrap-vision-content{
     margin-bottom: 20px;
+  }
+
+
+
+  .wrap-phone-contact{
+    margin-bottom: 30px;
+  }
+
+  .wrap-social-family{
+    width: 100%;
+  }
+
+  .wrap-vision-content{
+    width: 100%;
+  }
+  
+  .wrap-mission-content{
+    width: 100%;
   }
  
   

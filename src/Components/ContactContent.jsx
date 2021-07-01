@@ -20,49 +20,49 @@ export default function ContactContent() {
 				</section>
 
 				<section className='wrapper-contact'>
-					<div className='row justify-content-around background-dark'>
-						<div className='col-lg-4 col-md-5 background-dark m-2 wrap-about-mission'>
-							<img
-								src='/assets/icons/phone.svg'
-								className='icon-about-mission'
-								alt='Phone Contact | Entertrim Technology'
-							/>
-							<h3 className='title-about-mission'>
-								{setLang().Contact_Call_Us}
-							</h3>
+					<div className='row justify-content-around'>
+						<div className='col-lg-6 col-md-6 d-flex justify-content-center align-items-center justify-content-xl-end'>
+							<div className='wrap-phone-contact'>
+								<img
+									src='/assets/icons/phone.svg'
+									alt='Phone Contact | Entertrim Technology'
+								/>
+								<h3>{setLang().Contact_Call_Us}</h3>
 
-							<p className='desc-about-mission'>
-								{setLang().Contact_Available_Call}
-								<br />
-								Phone / Whatsapp / Telegram
-							</p>
-
-							<a href='tel:+6282166216671'>
-								<button className='btn btn-contact-content'>
-									+62821-6621-6671
-								</button>
-							</a>
+								<p>
+									{setLang().Contact_Available_Call}
+									<br />
+									Phone / Whatsapp / Telegram
+								</p>
+								<a href='tel:+6282166216671'>
+									<button className='btn btn-contact-content'>
+										+62821-6621-6671
+									</button>
+								</a>
+							</div>
 						</div>
-						<div className='col-lg-4 col-md-5 background-dark m-2 wrap-about-mission'>
-							<img
-								src='/assets/icons/email.svg'
-								className='icon-about-mission'
-								alt='Email Contact | Entertrim Technology'
-							/>
-							<h3 className='title-about-mission'>
-								{setLang().Contact_Email_Us}
-							</h3>
+						<div className='col-lg-6 col-md-6 d-flex justify-content-center align-items-center justify-content-xl-start'>
+							<div className='wrap-email-contact'>
+								<img
+									src='/assets/icons/email.svg'
+									className='icon-about-mission'
+									alt='Email Contact | Entertrim Technology'
+								/>
+								<h3 className='title-about-mission'>
+									{setLang().Contact_Email_Us}
+								</h3>
 
-							<p className='desc-about-mission'>
-								{setLang().Contact_Available_Email}
-								<br />
-								{setLang().Contact_Email_Handle}
-							</p>
-							<a href='mailto:halo@entertrim.com'>
-								<button className='btn btn-contact-content'>
-									halo@entertrim.com
-								</button>
-							</a>
+								<p className='desc-about-mission'>
+									{setLang().Contact_Available_Email}
+									<br />
+									{setLang().Contact_Email_Handle}
+								</p>
+								<a href='mailto:halo@entertrim.com'>
+									<button className='btn btn-contact-content'>
+										halo@entertrim.com
+									</button>
+								</a>
+							</div>
 						</div>
 
 						<iframe

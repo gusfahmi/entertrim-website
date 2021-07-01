@@ -33,7 +33,7 @@ export default function AboutUs() {
 
 				<div className='about-mission'>
 					<div className='row justify-content-center'>
-						<div className='col-lg-6 col-md-6 d-flex justify-content-center align-items-center'>
+						<div className='col-lg-6 col-md-6 d-flex justify-content-center align-items-center justify-content-xl-end'>
 							<div className='wrap-vision-content'>
 								<img
 									src='/assets/icons/vision.svg'
@@ -48,7 +48,7 @@ export default function AboutUs() {
 								</p>
 							</div>
 						</div>
-						<div className='col-lg-6 col-md-6 d-flex justify-content-center align-items-center'>
+						<div className='col-lg-6 col-md-6 d-flex justify-content-center align-items-center justify-content-xl-start'>
 							<div className='wrap-mission-content'>
 								<img
 									src='/assets/icons/mission.svg'
