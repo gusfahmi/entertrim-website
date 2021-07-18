@@ -27,7 +27,7 @@ export default function Index({ location, history }) {
 		const lang = localStorage.getItem("lang");
 		if (lang === "id") {
 			return [
-				"Konsultan Pembuatan Website, Aplikasi, Software, Jaringan, Server, Kecerdasan Buatan dan IoT Terbaik di Kota Medan.",
+				"Konsultan Website, Aplikasi, Software, Jaringan, Server, Kecerdasan Buatan dan IoT Terbaik di Kota Medan.",
 				"https://www.entertrim.com/?lang=id",
 			];
 		} else {
